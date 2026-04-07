@@ -182,7 +182,7 @@ const Edit = () => {
             <div className="space-y-3">
               {(formData.observations || []).map((obs, idx) => (
                 <div key={idx} className="flex items-start justify-between gap-3 p-3 bg-primary/5 border border-primary/20 rounded-lg">
-                  <p className="text-sm font-semibold text-black uppercase">{obs}</p>
+                  <p className="text-sm font-semibold text-white uppercase">{obs}</p>
                   <button type="button" onClick={() => handleRemoveObservation(idx)} className="text-red-500 hover:text-red-700">
                     <span className="material-symbols-outlined text-xl">delete</span>
                   </button>
