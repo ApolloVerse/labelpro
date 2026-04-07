@@ -1,18 +1,11 @@
-import { useRef, useState } from 'react';
+import { useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { useProducts } from '../context/ProductContext';
 import type { Product } from '../types';
 
 const Settings = () => {
-  const { products, importProducts, clearProducts } = useProducts();
+  const { products, importProducts } = useProducts();
   const fileInputRef = useRef<HTMLInputElement>(null);
-  const [showConfirmDelete, setShowConfirmDelete] = useState(false);
-
-  const handleClearAll = async () => {
-    setShowConfirmDelete(false);
-    await clearProducts();
-    alert('Todos os dados foram excluídos com sucesso. A nuvem está limpa.');
-  };
 
   const handleDownloadBackup = () => {
     // Converte de array interno para o formato de Dicionário
@@ -184,64 +177,7 @@ const Settings = () => {
           </div>
         </div>
 
-        {/* Zona de Perigo */}
-        <div className="space-y-4 pt-4">
-          <h3 className="text-lg font-bold flex items-center gap-2 text-red-500">
-            <span className="w-1 h-5 bg-red-500 rounded-full"></span>
-            Zona de Perigo
-          </h3>
-          <p className="text-sm text-slate-500 dark:text-slate-400">
-            Estas ações são irreversíveis. Tenha cuidado ao prosseguir.
-          </p>
-          
-          <button 
-            onClick={() => setShowConfirmDelete(true)}
-            className="w-full flex items-center justify-between p-4 bg-red-500/5 border border-red-500/20 rounded-xl hover:bg-red-500/10 transition-colors group"
-          >
-            <div className="flex items-center gap-3">
-              <div className="bg-red-500/20 p-2 rounded-lg text-red-500 group-hover:bg-red-500 group-hover:text-white transition-colors">
-                <span className="material-symbols-outlined">delete_forever</span>
-              </div>
-              <div className="text-left">
-                <p className="font-bold text-red-600 dark:text-red-500">Excluir Todos os Dados</p>
-                <p className="text-xs text-slate-500">Limpar permanentemente a biblioteca</p>
-              </div>
-            </div>
-            <span className="material-symbols-outlined text-red-500/50">chevron_right</span>
-          </button>
-        </div>
       </main>
-
-      {/* Modal de Confirmação Personalizado */}
-      {showConfirmDelete && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm transition-opacity">
-          <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 max-w-sm w-full shadow-2xl border border-red-500/20">
-            <div className="flex items-center justify-center size-12 rounded-full bg-red-100 dark:bg-red-500/20 text-red-500 mb-4 mx-auto">
-              <span className="material-symbols-outlined text-3xl">warning</span>
-            </div>
-            <h3 className="text-xl font-bold text-center text-slate-900 dark:text-slate-100 mb-2">Excluir Toda a Nuvem?</h3>
-            <p className="text-sm text-center text-slate-500 dark:text-slate-400 mb-6">
-              Esta ação removerá TODOS os produtos de forma definitiva. Absolutamente todos os dispositivos perderão o acesso aos dados.
-            </p>
-            <div className="flex gap-3">
-              <button 
-                onClick={() => setShowConfirmDelete(false)}
-                className="flex-1 py-3 px-4 rounded-xl font-bold border border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors"
-                type="button"
-              >
-                Cancelar
-              </button>
-              <button 
-                onClick={handleClearAll}
-                className="flex-1 py-3 px-4 rounded-xl font-bold bg-red-500 text-white hover:bg-red-600 active:bg-red-700 transition-colors shadow-lg shadow-red-500/30"
-                type="button"
-              >
-                Sim, Excluir!
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
     </>
   );
 };

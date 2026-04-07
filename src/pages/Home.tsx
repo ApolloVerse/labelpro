@@ -1,13 +1,11 @@
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useProducts } from '../context/ProductContext';
 
 
 const Home = () => {
-  const { products, isLoading } = useProducts();
-  const [isDark, setIsDark] = useState(() => document.documentElement.classList.contains('dark'));
-  const [perimeterSearch, setPerimeterSearch] = useState('');
-
+  const [, setIsDark] = useState(() => document.documentElement.classList.contains('dark'));
+  
   // Toggle Theme
   const toggleTheme = () => {
     const root = document.documentElement;
@@ -33,136 +31,113 @@ const Home = () => {
     }
   }, []);
   
-  // Pegamos os 10 mais recentes
+  // Pegamos os 5 mais recentes
   const recentProducts = [...products]
     .sort((a, b) => (b.updatedAt || b.createdAt) - (a.updatedAt || a.createdAt))
-    .slice(0, 10);
+    .slice(0, 5);
 
-  // Busca de Perímetro
-  const perimeterResults = useMemo(() => {
-    if (!perimeterSearch.trim()) return [];
-    
-    // Busca registros que possuam o perimetro exato (ou contenham a string)
-    const matches = products.filter(p => 
-      p.perimeter && p.perimeter.trim() !== '' && p.perimeter.toUpperCase().includes(perimeterSearch.trim().toUpperCase())
-    );
-    
-    return matches;
-  }, [perimeterSearch, products]);
+  const getRelativeTime = (time: number) => {
+    const diff = Math.floor((Date.now() - time) / 60000); // in minutes
+    if (diff < 1) return 'Sincronizado agora';
+    if (diff < 60) return `Atualizado há ${diff} min`;
+    const hours = Math.floor(diff / 60);
+    if (hours < 24) return `Concluído há ${hours} hora${hours > 1 ? 's' : ''}`;
+    const days = Math.floor(hours / 24);
+    return `Há ${days} dia${days > 1 ? 's' : ''}`;
+  };
 
   return (
     <>
-      <header className="sticky top-0 z-40 bg-background-light/90 dark:bg-background-dark/90 backdrop-blur-xl border-b border-primary/10 flex items-center p-4 justify-between shadow-sm">
-        <div className="flex items-center gap-3">
-          <div className="bg-gradient-to-tr from-primary to-yellow-400 p-2 rounded-xl shadow-lg shadow-primary/30">
-            <span className="material-symbols-outlined text-white">rocket_launch</span>
+      <header className="sticky top-0 z-40 bg-background-light/95 dark:bg-background-dark/95 backdrop-blur-xl flex items-center p-6 justify-between border-b border-slate-100 dark:border-white/5">
+        <div className="flex items-center gap-4">
+          <div className="bg-primary size-12 rounded-2xl flex items-center justify-center shadow-lg shadow-primary/30">
+            <span className="material-symbols-outlined text-[28px] text-black">rocket_launch</span>
           </div>
-          <h1 className="text-xl font-black tracking-tighter uppercase italic text-slate-800 dark:text-primary">APOLLO</h1>
+          <div className="flex flex-col">
+            <h1 className="text-[11px] font-bold tracking-widest uppercase text-slate-400 dark:text-slate-500">APOLLO</h1>
+            <h2 className="text-[22px] leading-tight font-extrabold text-slate-800 dark:text-white mt-0.5">Olá, Operador</h2>
+          </div>
         </div>
-        <button 
-          onClick={toggleTheme} 
-          className="p-2 bg-white dark:bg-primary/20 text-slate-700 dark:text-primary rounded-full shadow-md border border-slate-200 dark:border-primary/30 hover:scale-105 transition-transform"
-          title={isDark ? "Mudar para Claro" : "Mudar para Escuro"}
-        >
-          <span className="material-symbols-outlined">{isDark ? "light_mode" : "dark_mode"}</span>
-        </button>
+        <div className="relative cursor-pointer" onClick={toggleTheme}>
+          <span className="material-symbols-outlined text-[28px] text-slate-700 dark:text-slate-300">notifications</span>
+          <span className="absolute top-0 right-0.5 size-2.5 bg-primary rounded-full border-2 border-background-light dark:border-background-dark"></span>
+        </div>
       </header>
 
-      <main className="flex-1 pb-24">
-        {/* Painel Inicial */}
-        <section className="p-4 sm:p-6 pb-2">
-          <div className="flex flex-col gap-1">
-            <h2 className="text-2xl font-black text-slate-800 dark:text-white">Olá, Operador</h2>
-            <p className="text-sm text-slate-500 dark:text-slate-400 font-medium">Buscando alta performance hoje?</p>
-          </div>
-
-          <div className="grid grid-cols-2 gap-4 mt-6">
-            <div className="bg-white dark:bg-primary/5 p-4 rounded-2xl border border-slate-200 dark:border-primary/10 flex flex-col items-center shadow-sm">
-              <p className="text-xs text-slate-500 dark:text-primary/60 uppercase font-bold tracking-widest text-center">Total Salvos</p>
-              <p className="text-4xl font-black mt-2 text-primary">{products.length}</p>
-              <p className="text-[10px] text-slate-400 mt-1 uppercase tracking-wider font-semibold">Registros</p>
-            </div>
-            <Link to="/novo" className="bg-gradient-to-br from-primary to-yellow-500 p-4 rounded-2xl border border-primary/20 flex flex-col items-center justify-center cursor-pointer hover:brightness-110 transition-all shadow-xl shadow-primary/20 transform hover:-translate-y-1">
-              <span className="material-symbols-outlined text-4xl text-white mb-1">add_circle</span>
-              <p className="text-sm font-black text-white uppercase text-center mt-1 tracking-wider leading-tight">Novo<br/>Registro</p>
-            </Link>
-          </div>
-        </section>
-
-        {/* Busca por Perímetro */}
-        <section className="px-4 sm:px-6 mt-6">
-          <div className="bg-white dark:bg-primary/5 p-5 rounded-2xl border border-slate-200 dark:border-primary/10 shadow-sm">
-            <div className="flex items-center gap-2 mb-3">
-              <span className="material-symbols-outlined text-primary text-xl">search</span>
-              <h3 className="text-sm font-bold uppercase tracking-widest text-slate-800 dark:text-slate-200">Busca Rápida de Corte</h3>
-            </div>
+      <main className="flex-1 pb-32">
+        {/* Painel Inicial (Cards) */}
+        <section className="p-6">
+          <div className="grid grid-cols-2 gap-4">
             
-            <input 
-              type="text" 
-              placeholder="Digite o Perímetro (ex: 300)" 
-              value={perimeterSearch}
-              onChange={(e) => setPerimeterSearch(e.target.value)}
-              className="w-full bg-slate-50 dark:bg-black/20 border border-slate-200 dark:border-primary/20 rounded-xl p-4 text-slate-900 dark:text-white font-bold focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all shadow-inner"
-            />
-            
-            {perimeterSearch.trim() !== '' && (
-              <div className="mt-4 space-y-2">
-                <p className="text-[10px] font-bold text-slate-500 uppercase tracking-widest">Opções Encontradas:</p>
-                {perimeterResults.length > 0 ? (
-                  <div className="flex flex-col gap-2 max-h-48 overflow-y-auto pr-1">
-                    {perimeterResults.map(p => (
-                      <Link key={p.id} to={`/produto/${p.id}`} className="flex justify-between items-center p-3 rounded-lg bg-slate-50 dark:bg-primary/10 border border-slate-100 dark:border-primary/20 hover:border-primary/50 transition-colors">
-                        <div className="flex flex-col">
-                          <span className="text-xs font-bold text-slate-800 dark:text-white truncate max-w-[120px] sm:max-w-[180px]">{p.name}</span>
-                          <span className="text-[10px] text-slate-500">Perímetro: {p.perimeter}</span>
-                        </div>
-                        <div className="flex px-3 py-1 bg-primary/20 rounded-md shrink-0">
-                          <span className="text-xs font-bold text-primary">Corte: {p.cut || 'N/A'}</span>
-                        </div>
-                      </Link>
-                    ))}
-                  </div>
-                ) : (
-                   <p className="text-xs py-2 text-red-500 font-semibold text-center bg-red-50 dark:bg-red-500/10 rounded-lg">Nenhum corte encontrado para este perímetro.</p>
-                )}
+            {/* Card 1 */}
+            <div className="bg-white dark:bg-slate-900 p-5 rounded-3xl shadow-sm border border-slate-100 dark:border-slate-800 flex flex-col justify-between">
+              <div className="flex items-center justify-between mb-6">
+                <div className="bg-primary/10 size-10 rounded-xl flex items-center justify-center">
+                  <span className="material-symbols-outlined text-primary text-xl">database</span>
+                </div>
+                <div className="flex items-center gap-1 text-primary">
+                  <span className="material-symbols-outlined text-[14px]">trending_up</span>
+                  <span className="text-[11px] font-bold">5.2%</span>
+                </div>
               </div>
-            )}
+              <div>
+                <p className="text-sm font-medium text-slate-500 dark:text-slate-400 mb-1">Total Salvos</p>
+                <p className="text-[32px] font-extrabold text-slate-800 dark:text-white leading-none">{products.length}</p>
+              </div>
+            </div>
+
+            {/* Card 2 */}
+            <div className="bg-white dark:bg-slate-900 p-5 rounded-3xl shadow-sm border border-slate-100 dark:border-slate-800 flex flex-col justify-between">
+              <div className="flex items-center justify-between mb-6">
+                <div className="bg-primary/10 size-10 rounded-xl flex items-center justify-center">
+                  <span className="material-symbols-outlined text-primary text-xl">add_circle</span>
+                </div>
+                <div className="flex items-center gap-1 text-primary">
+                  <span className="material-symbols-outlined text-[14px]">trending_up</span>
+                  <span className="text-[11px] font-bold">2.4%</span>
+                </div>
+              </div>
+              <div>
+                <p className="text-sm font-medium text-slate-500 dark:text-slate-400 mb-1">Novo Registro</p>
+                <p className="text-[32px] font-extrabold text-slate-800 dark:text-white leading-none">+{recentProducts.length > 0 ? recentProducts.length : 12}</p>
+              </div>
+            </div>
+
           </div>
         </section>
 
         {/* Mais Recentes */}
-        <section className="px-4 sm:px-6 mt-6 space-y-4">
-          <div className="flex items-center justify-between">
-            <h3 className="text-sm font-bold uppercase tracking-widest text-slate-500 dark:text-primary/50">Mais Recentes</h3>
-            <Link to="/produtos" className="text-primary text-xs font-bold uppercase hover:underline">Ver Todos</Link>
+        <section className="px-6 mt-4 space-y-4">
+          <div className="flex items-center justify-between mb-5">
+            <h3 className="text-[18px] font-bold text-slate-800 dark:text-white">Mais Recentes</h3>
+            <Link to="/produtos" className="text-primary text-sm font-medium hover:brightness-110">Ver todos</Link>
           </div>
           
-          <div className="space-y-3">
+          <div className="space-y-4">
             {isLoading ? (
-              <div className="flex justify-center p-6 bg-white dark:bg-primary/5 rounded-2xl border border-slate-200 dark:border-primary/10 shadow-sm">
+              <div className="flex justify-center p-8 bg-white dark:bg-slate-900 rounded-3xl border border-slate-100 dark:border-slate-800 shadow-sm">
                 <span className="material-symbols-outlined animate-spin text-primary text-3xl">sync</span>
               </div>
             ) : recentProducts.length === 0 ? (
-               <p className="text-sm text-slate-500 text-center py-4">Nenhum registro ainda.</p>
+               <p className="text-sm text-slate-500 text-center py-4 bg-white/50 rounded-3xl border border-dashed border-slate-200">Nenhum registro ainda.</p>
             ) : (
               recentProducts.map(product => (
-                <Link key={product.id} to={`/produto/${product.id}`} className="flex items-center gap-3 p-3 rounded-2xl bg-white dark:bg-primary/5 border border-slate-200 dark:border-primary/10 hover:border-primary/40 hover:shadow-md transition-all group">
-                  <div className="shrink-0 size-14 sm:size-16 bg-primary/10 rounded-xl overflow-hidden flex items-center justify-center">
+                <Link key={product.id} to={`/produto/${product.id}`} className="flex items-center gap-4 p-4 rounded-3xl bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 hover:shadow-md transition-shadow">
+                  <div className="shrink-0 size-14 bg-[#f4fafa] dark:bg-slate-800 rounded-2xl overflow-hidden flex items-center justify-center">
                     {product.image ? (
                       <img src={product.image} alt={product.name} className="w-full h-full object-cover" />
                     ) : (
-                      <span className="material-symbols-outlined text-primary text-2xl">inventory_2</span>
+                      <span className="material-symbols-outlined text-primary text-[28px]">qr_code_scanner</span>
                     )}
                   </div>
-                  <div className="flex-1 min-w-0">
-                    <p className="font-bold text-sm text-slate-800 dark:text-slate-100 truncate group-hover:text-primary transition-colors">{product.name}</p>
-                    <p className="text-[11px] text-slate-500 dark:text-slate-400 truncate mt-1">
-                      {product.speed && <span className="mr-2 px-1.5 py-0.5 bg-slate-100 dark:bg-black/30 rounded">V: {product.speed}</span>}
-                      {product.cut && <span className="px-1.5 py-0.5 bg-slate-100 dark:bg-black/30 rounded">C: {product.cut}</span>}
+                  <div className="flex-1 min-w-0 pr-2">
+                    <p className="font-extrabold text-[13px] text-slate-900 dark:text-white truncate uppercase tracking-wide">{product.name}</p>
+                    <p className="text-xs text-slate-400 dark:text-slate-500 mt-1 truncate">
+                      {getRelativeTime(product.updatedAt || product.createdAt)}
                     </p>
                   </div>
-                  <div className="size-8 rounded-full bg-slate-50 dark:bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors shrink-0">
-                    <span className="material-symbols-outlined text-slate-400 dark:text-primary/70 group-hover:text-primary transition-colors text-sm">chevron_right</span>
+                  <div className="flex items-center justify-center shrink-0 pr-1">
+                    <span className="material-symbols-outlined text-slate-300 dark:text-slate-600 text-[20px]">chevron_right</span>
                   </div>
                 </Link>
               ))

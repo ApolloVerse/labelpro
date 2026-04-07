@@ -27,32 +27,45 @@ const BottomNav = () => {
   const path = location.pathname;
 
   return (
-    <nav className="fixed bottom-0 left-0 right-0 bg-white/90 dark:bg-background-dark/90 backdrop-blur-lg border-t border-primary/10 px-4 pb-4 pt-2 z-50 shadow-[0_-4px_20px_-10px_rgba(0,0,0,0.1)]">
-      <div className="max-w-md mx-auto flex gap-2">
-        <Link to="/" className={`flex flex-1 flex-col items-center justify-center gap-1 transition-all duration-300 ${path === '/' ? 'text-primary scale-110' : 'text-slate-500 dark:text-slate-400 hover:text-primary'}`}>
-          <div className="flex h-8 items-center justify-center">
-            <span className="material-symbols-outlined" style={{ fontVariationSettings: path === '/' ? "'FILL' 1" : "" }}>home</span>
-          </div>
-          <p className="text-[10px] font-bold uppercase tracking-widest">Início</p>
-        </Link>
-        <Link to="/produtos" className={`flex flex-1 flex-col items-center justify-center gap-1 transition-all duration-300 ${path === '/produtos' ? 'text-primary scale-110' : 'text-slate-500 dark:text-slate-400 hover:text-primary'}`}>
-          <div className="flex h-8 items-center justify-center">
-            <span className="material-symbols-outlined" style={{ fontVariationSettings: path === '/produtos' ? "'FILL' 1" : "" }}>inventory_2</span>
-          </div>
-          <p className="text-[10px] font-bold uppercase tracking-widest">Produtos</p>
-        </Link>
-        <Link to="/novo" className={`flex flex-1 flex-col items-center justify-center gap-1 transition-all duration-300 ${path === '/novo' ? 'text-primary scale-110' : 'text-slate-500 dark:text-slate-400 hover:text-primary'}`}>
-          <div className="flex h-8 items-center justify-center">
-            <span className="material-symbols-outlined" style={{ fontVariationSettings: path === '/novo' ? "'FILL' 1" : "" }}>add_circle</span>
-          </div>
-          <p className="text-[10px] font-bold uppercase tracking-widest">Novo</p>
-        </Link>
-        <Link to="/configuracoes" className={`flex flex-1 flex-col items-center justify-center gap-1 transition-all duration-300 ${path === '/configuracoes' ? 'text-primary scale-110' : 'text-slate-500 dark:text-slate-400 hover:text-primary'}`}>
-          <div className="flex h-8 items-center justify-center">
-            <span className="material-symbols-outlined" style={{ fontVariationSettings: path === '/configuracoes' ? "'FILL' 1" : "" }}>settings</span>
-          </div>
-          <p className="text-[10px] font-bold uppercase tracking-widest">Ajustes</p>
-        </Link>
+    <nav className="fixed bottom-0 left-0 right-0 bg-white/95 dark:bg-background-dark/95 backdrop-blur-xl border-t border-slate-100 dark:border-primary/10 px-2 pb-6 pt-3 z-50 shadow-[0_-8px_30px_-15px_rgba(0,0,0,0.1)]">
+      <div className="max-w-md mx-auto relative flex justify-between items-end">
+        <div className="flex flex-1 justify-around">
+          <Link to="/" className={`flex flex-col items-center justify-center gap-1 transition-all duration-300 ${path === '/' ? 'text-primary scale-110' : 'text-slate-400 hover:text-slate-600'}`}>
+            <div className={`flex h-10 w-10 items-center justify-center rounded-xl ${path === '/' ? 'bg-primary/20' : ''}`}>
+              <span className="material-symbols-outlined text-[26px]" style={{ fontVariationSettings: path === '/' ? "'FILL' 1" : "" }}>home</span>
+            </div>
+            <p className="text-[9px] font-bold uppercase tracking-widest mt-1">Início</p>
+          </Link>
+          <Link to="/produtos" className={`flex flex-col items-center justify-center gap-1 transition-all duration-300 ${path === '/produtos' ? 'text-primary scale-110' : 'text-slate-400 hover:text-slate-600'}`}>
+            <div className={`flex h-10 w-10 items-center justify-center rounded-xl ${path === '/produtos' ? 'bg-primary/20' : ''}`}>
+              <span className="material-symbols-outlined text-[26px]" style={{ fontVariationSettings: path === '/produtos' ? "'FILL' 1" : "" }}>inventory</span>
+            </div>
+            <p className="text-[9px] font-bold uppercase tracking-widest mt-1">Produtos</p>
+          </Link>
+        </div>
+
+        {/* Central Floating Button */}
+        <div className="relative -top-8 px-2 flex flex-col items-center justify-center shrink-0">
+          <Link to="/novo" className="flex items-center justify-center size-16 rounded-full bg-primary text-black shadow-xl shadow-primary/40 hover:scale-105 active:scale-95 transition-all outline outline-8 outline-background-light dark:outline-background-dark">
+            <span className="material-symbols-outlined text-4xl font-black">add</span>
+          </Link>
+          <p className="text-[9px] font-bold uppercase tracking-widest mt-2 text-slate-400">Novo</p>
+        </div>
+
+        <div className="flex flex-1 justify-around">
+          <Link to="/produtos" className={`flex flex-col items-center justify-center gap-1 transition-all duration-300 ${path === '/historico' ? 'text-primary scale-110' : 'text-slate-400 hover:text-slate-600'}`}>
+            <div className="flex h-10 w-10 items-center justify-center rounded-xl">
+              <span className="material-symbols-outlined text-[26px]">history</span>
+            </div>
+            <p className="text-[9px] font-bold uppercase tracking-widest mt-1">Histórico</p>
+          </Link>
+          <Link to="/configuracoes" className={`flex flex-col items-center justify-center gap-1 transition-all duration-300 ${path === '/configuracoes' ? 'text-primary scale-110' : 'text-slate-400 hover:text-slate-600'}`}>
+            <div className={`flex h-10 w-10 items-center justify-center rounded-xl ${path === '/configuracoes' ? 'bg-primary/20' : ''}`}>
+              <span className="material-symbols-outlined text-[26px]" style={{ fontVariationSettings: path === '/configuracoes' ? "'FILL' 1" : "" }}>settings</span>
+            </div>
+            <p className="text-[9px] font-bold uppercase tracking-widest mt-1">Ajustes</p>
+          </Link>
+        </div>
       </div>
     </nav>
   );
