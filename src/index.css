@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #f29e0d;
+  --color-background-light: #f8f7f5;
+  --color-background-dark: #221b10;
+  --font-sans: "Inter", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-background-light text-slate-900 font-sans;
+    min-height: max(884px, 100dvh);
+    position: relative !important;
+    top: 0 !important;
+  }
+  
+  .dark body {
+    @apply bg-background-dark text-slate-100;
+  }
+
+  /* Impede que o Google Translate quebre fontes e tamanhos */
+  font {
+    font-family: inherit !important;
+    font-size: inherit !important;
+    color: inherit !important;
+    line-height: inherit !important;
+    font-weight: inherit !important;
+  }
+
+  /* Oculta a barra do Google Translate que quebra a altura da tela */
+  .skiptranslate iframe,
+  .VIpgJd-Zvi9od-ORHb-OEVmcd {
+    display: none !important;
+  }
+}

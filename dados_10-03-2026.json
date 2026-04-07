@@ -1,0 +1,1072 @@
+{
+  "F BC 300 RGB ": {
+    "repeticao": "132",
+    "chagrim": "Não",
+    "corte": -328.1,
+    "velocidade": "252",
+    "perimetro": 868,
+    "observacoes": [
+      "Muitos enroscamentos e folha dobrando na lateral cerutti  ângulo quase no meio",
+      "Folhas dobrando lado cerutti e amassando , feito o levantamento do rolo auxiliar e ajustado o ângulo estava errado ",
+      "Corte anterior: -332.2"
+    ],
+    "timestamp": "02/06/2025, 22:00:08"
+  },
+  "F SKOL 1 L": {
+    "repeticao": "56",
+    "chagrim": "Não",
+    "corte": -316,
+    "velocidade": "246",
+    "perimetro": 850,
+    "observacoes": [
+      "Antes 315.7 ",
+      "",
+      "Corte anterior: -321.4"
+    ],
+    "timestamp": "11/08/2025, 16:18:52"
+  },
+  "F AP 600": {
+    "repeticao": "72",
+    "chagrim": "Não",
+    "corte": -371.3,
+    "velocidade": "249",
+    "perimetro": 914,
+    "observacoes": [
+      "Malandro abaixa a velocidade depois das 19 só pra não pegar setup",
+      "Rodando super bem corte muito bom ",
+      "Corte anterior: -373.1"
+    ],
+    "timestamp": "18/09/2025, 14:41:20"
+  },
+  "N STELLA PURE GOLD 330": {
+    "repeticao": "70",
+    "chagrim": "Sim",
+    "corte": -151.2,
+    "velocidade": "166",
+    "perimetro": 650,
+    "observacoes": [
+      "Mudança de cor do sensor de vermelho para azul não pega o corte com o vermelho ",
+      "Rodar sempre com as pas laterais de saída da faca mais abertas ",
+      "Overlap a 76 melhorou também a questão das folhas dobradas ",
+      "Rodando a 169 porque estava dobrando folhas ambos lados , ângulo diagonal pra baixo,  rolo auxiliar encostado um pouco ,guia cerutti um pouco aberta ,guia rotomec também sopradores reto perimetro 650 mais freio a 645",
+      "Mexi na barra de acionamento do ar e inclinei ela mais pra baixo e parou de dobrar folhas ",
+      "Folhas amassando nas laterais e sensor de corte estava vermelho fizeram atuação no sensor e voltou a cor azul",
+      "Dobrando folhas lateral ao subir velocidade ",
+      "Fluxo 10 mil",
+      "Corte anterior: -151.6"
+    ],
+    "timestamp": "05/01/2026, 14:31:14"
+  },
+  "F SKOL 300 RGB": {
+    "repeticao": "156",
+    "chagrim": "Não",
+    "corte": -367.8,
+    "velocidade": "250",
+    "perimetro": 910,
+    "observacoes": [
+      "Rodando bem rodou até 261 mais abaixamos ",
+      "Enroscamentos seguidos folhas jogando pro lado cerutti faca rasgando a folha feito o ajuste na faca ",
+      "Apertei a correia lenta lado rotomec estava muito frouxa e mudei a posição da roldana do lado rotomec para parar de pular ",
+      "Feita a troca das duas roldanas lado rotomec muito suja melhorou as folhas jogando pro lado abaixei o rolo auxiliar também ",
+      "",
+      "Corte anterior: -368.3"
+    ],
+    "timestamp": "17/09/2025, 14:44:37"
+  },
+  "F AP 1 L": {
+    "repeticao": "63",
+    "chagrim": "Não",
+    "corte": -321.3,
+    "velocidade": "245",
+    "perimetro": 850,
+    "observacoes": [
+      "Muitos enroscamentos seguidos ,rolo auxiliar bem próximo dos abaixsdores deixei a marca com tinta preta , rolo acrilico baixo e overlap 77",
+      "Folhas enrolando no rolo de aco e folhas sendo jogadas lado rotomec foi ajustada a chapa da faca encostada porém no pcm tem que verificar certinho ",
+      "Folhas dobrando nas pontas ,foi levantado o rolo auxiliar e parou de dobrar ",
+      "-235.6 o corte novo",
+      "Rodando baixo devido a enroscamentos ao subir velocidade ",
+      "Corte anterior: -317.6"
+    ],
+    "timestamp": "06/01/2026, 19:19:26"
+  },
+  "F BC NORDESTE 1 L ": {
+    "repeticao": "63",
+    "chagrim": "Não",
+    "corte": -322.4,
+    "velocidade": "246",
+    "perimetro": 856,
+    "observacoes": [
+      "Deixaram o perímetro que era 856 em 865 muitos enroscamentos de manha muito ruins , ajuste do rolo auxiliar subi um pouco , abri a guia lado cerutti pronto 250 e rodaram 210 220 ",
+      "Muitos enroscamentos na saída da faca possivelmente o papel porque mexemos em tudo e nada rodou no máximo 243 porém estabilizou em 210",
+      "Antes -235 agora -319",
+      "Faca foi trocada dia 14 meu aniversário devido a ter excesso de ajuste e ficar travada , conjunto do abaixador de calda estava pegando nas correias lentas fazendo ocorrer enroscamentos ninguém viu ",
+      "Corte anterior 238.1",
+      "",
+      "Corte anterior: 323"
+    ],
+    "timestamp": "27/09/2025, 19:44:21"
+  },
+  "F SKOL 600": {
+    "repeticao": "90",
+    "chagrim": "Não",
+    "corte": -374,
+    "velocidade": "243",
+    "perimetro": 918.6,
+    "observacoes": [
+      "Hoje dia 19.07.25 pessoal não conseguiu rodar máquina embolando papel na mesa ,cheguei e vi que o rolo de entrada da mesa estava parando por causa das correias laterais que estavam rolando em falso henrikson atuou colocanso fita isolante pra aumentar o perímetro da peça até confeccionar outra, foi um caos de manhã ",
+      "Bobinas foram rebobinadas para repassar o verniz corte ao contrário -371.7",
+      "Rodando bem podendo ir além de 250 ",
+      "",
+      "Corte anterior: -375.7"
+    ],
+    "timestamp": "02/03/2026, 22:41:20"
+  },
+  "F ORIGINAL 600 ": {
+    "repeticao": "72",
+    "chagrim": "Sim",
+    "corte": -373.1,
+    "velocidade": "243",
+    "perimetro": 914,
+    "observacoes": [
+      "Rodando bem agora antes da troca da faca rodando 180 agora rodando 243 corte 376  angulo todo baixo bem fechado ",
+      "Rodando mau soltando verniz no chagrim ",
+      "Corte anterior: -373"
+    ],
+    "timestamp": "07/11/2025, 17:53:56"
+  },
+  "F PACENA 1000 ": {
+    "repeticao": "70",
+    "chagrim": "Sim",
+    "corte": -321,
+    "velocidade": "246",
+    "perimetro": 850,
+    "observacoes": [
+      "Folhas dobram quando coloca em 100 já tem que puxar a 150 ",
+      "",
+      "Corte anterior: -316"
+    ],
+    "timestamp": "25/02/2026, 20:18:04"
+  },
+  "F PACENA 235": {
+    "repeticao": "135",
+    "chagrim": "Sim",
+    "corte": -376.7,
+    "velocidade": "249",
+    "perimetro": 918.6,
+    "observacoes": [
+      "Overlap 66",
+      "Corte anterior: 376"
+    ],
+    "timestamp": "12/02/2026, 14:31:47"
+  },
+  "F STELLA 600": {
+    "repeticao": "70",
+    "chagrim": "Não",
+    "corte": -304.4,
+    "velocidade": "249",
+    "perimetro": 830,
+    "observacoes": [
+      "Rodando muito bem ",
+      "Depois do pcm faca cortando bem ",
+      "",
+      "Corte anterior: -301.6"
+    ],
+    "timestamp": "20/11/2025, 16:34:41"
+  },
+  "F SPATEN 600": {
+    "repeticao": "80",
+    "chagrim": "Sim",
+    "corte": -370,
+    "velocidade": "249",
+    "perimetro": 914,
+    "observacoes": [
+      "-366 com o sensor virado lado rotomec",
+      "Mesa está torta fazendo enroscamentos devido a altura ",
+      "",
+      "Corte anterior: 372"
+    ],
+    "timestamp": "25/02/2026, 14:43:10"
+  },
+  "F N SERRAMALTE 600": {
+    "repeticao": "70",
+    "chagrim": "Sim",
+    "corte": -363,
+    "velocidade": "240",
+    "perimetro": 909,
+    "observacoes": [
+      "Enroscamentos diversos pilha do serjao",
+      "",
+      "Corte anterior: 372"
+    ],
+    "timestamp": "02/06/2025, 21:59:05"
+  },
+  "B SPATEN 600": {
+    "repeticao": "180",
+    "chagrim": "Sim",
+    "corte": -360.1,
+    "velocidade": "255",
+    "perimetro": 905,
+    "observacoes": [
+      "Antes -360.3",
+      "Rodando super bem ",
+      "Antes -270.7 agora -360",
+      "Enroscando ao subir velocidade terminei o turno a 230 ajuste do ângulo ",
+      "",
+      "Corte anterior: -365"
+    ],
+    "timestamp": "05/08/2025, 15:47:43"
+  },
+  "N SKOL SENSES 269": {
+    "repeticao": "126",
+    "chagrim": "Sim",
+    "corte": -311,
+    "velocidade": "",
+    "perimetro": 846.8,
+    "observacoes": [
+      "",
+      "Corte anterior: 319"
+    ],
+    "timestamp": "09/04/2025, 21:53:05"
+  },
+  "N STELLA 600": {
+    "repeticao": "55",
+    "chagrim": "Não",
+    "corte": -188.9,
+    "velocidade": "170",
+    "perimetro": 693,
+    "observacoes": [
+      "Fluxo 10500",
+      "Corte anterior -117",
+      "Parou de dobrar folhas quando eu peguei a guia lateral de saída da folha e deixei ela bem na ponta ",
+      "Rodando dobrando folhas nas pontas lado cerutti , abaixei mais um pouco o rolo auxiliar com a chave 13 e fechei mais o ângulo melhorou e parou de dobrar ",
+      "Rodando bem mais variando o corte as vezes ",
+      "",
+      "Corte anterior: -186"
+    ],
+    "timestamp": "21/11/2025, 19:00:36"
+  },
+  "F BC 600 NORDESTE": {
+    "repeticao": "72",
+    "chagrim": "Não",
+    "corte": -368,
+    "velocidade": "243",
+    "perimetro": 914,
+    "observacoes": [
+      "Depois do pcm troca da faca rodando bem ",
+      "",
+      "Corte anterior: -373"
+    ],
+    "timestamp": "28/03/2025, 05:42:47"
+  },
+  "F N POLAR 1 L ": {
+    "repeticao": "54",
+    "chagrim": "Sim",
+    "corte": -362.3,
+    "velocidade": "249",
+    "perimetro": 909.6,
+    "observacoes": [
+      "Antes corte -365",
+      "Depois de arrumar a maquina ",
+      "Corte anterior: 369"
+    ],
+    "timestamp": "09/05/2025, 17:02:53"
+  },
+  "N BRAHMA NORDESTE 1 L": {
+    "repeticao": "190",
+    "chagrim": "Não",
+    "corte": -345,
+    "velocidade": "246",
+    "perimetro": 887,
+    "observacoes": [
+      "Folhas dobrando lado cerutti, abri a guia de metal até o limite e coloquei o soprador bem na ponta aonde dobrava e parou",
+      "Antes -258.1 agora -345",
+      "Papel com aspecto de rugas não podendo subir a velocidade e acontecendo alguns enroscamentos sem causa ",
+      "Rodando bem porém as folhas parecem que estão com rugas mais ta rodando razoável ",
+      "Rodando bem folhas jogando na mesa para o lado cerutti ,arrumado o freio ",
+      "",
+      "Corte anterior: -349"
+    ],
+    "timestamp": "05/04/2025, 16:08:01"
+  },
+  "F STELLA 660 CHILE ": {
+    "repeticao": "96",
+    "chagrim": "Não",
+    "corte": -377.5,
+    "velocidade": "246",
+    "perimetro": 918.6,
+    "observacoes": [
+      "Depois do pcm maquina ruim",
+      "Corte anterior: 376.6"
+    ],
+    "timestamp": "20/01/2026, 14:37:52"
+  },
+  "B STELLA 660 CHILE ": {
+    "repeticao": "182",
+    "chagrim": "Não",
+    "corte": -365.8,
+    "velocidade": "248",
+    "perimetro": 905,
+    "observacoes": [
+      "No horário de almoço ed não conseguiu rodar a maquina girou o ângulo todo e fez com que as folhas ficassem enroscando ,tive que voltar da janta e arrumar ",
+      "Antes-280.1  agora -350.6",
+      "Rodando muito bem ",
+      "",
+      "Corte anterior: 365"
+    ],
+    "timestamp": "21/01/2026, 21:55:52"
+  },
+  "F N BOHEMIA 990 IN65 21 ": {
+    "repeticao": "45",
+    "chagrim": "Não",
+    "corte": -263.7,
+    "velocidade": "247",
+    "perimetro": 882,
+    "observacoes": [
+      "Corte anterior: -345.6"
+    ]
+  },
+  "N STELLA 660 CHILE ": {
+    "repeticao": "55",
+    "chagrim": "Não",
+    "corte": -185.8,
+    "velocidade": "155",
+    "perimetro": 692,
+    "observacoes": [
+      "rodando devagar devido a folhas dobradas ",
+      "Muitos enroscamentos depois que o Luciano trocou a faca dia 15.01.26 folhas dobrando nas pontas ao subir velocidade rodou a 140 ",
+      "Corte 180.3 depois que eu regulei o alinhador e o sensor estava fora ",
+      "Antes -113 agora -184",
+      "Dobrando folhas abaixei rolo auxiliar e mexi no ângulo mais baixo parafuso "
+    ],
+    "timestamp": "21/02/2026, 15:04:48"
+  },
+  "F B STELLA PY 600": {
+    "repeticao": "1",
+    "chagrim": "Não",
+    "corte": -269.2,
+    "velocidade": "223",
+    "perimetro": 790,
+    "observacoes": [
+      "Antes 189.4 agora 269.2",
+      "Corte anterior: -271.3"
+    ],
+    "timestamp": "06/01/2026, 14:49:37"
+  },
+  "F BC 300 OW ": {
+    "repeticao": "154",
+    "chagrim": "Não",
+    "corte": -330.9,
+    "velocidade": "248",
+    "perimetro": 868,
+    "observacoes": [
+      "Rodou bem ",
+      "Corte anterior: -346.1"
+    ],
+    "timestamp": "07/08/2025, 14:38:08"
+  },
+  "F BOHEMIA 600 429": {
+    "repeticao": "72",
+    "chagrim": "Não",
+    "corte": -368,
+    "velocidade": "246",
+    "perimetro": 914,
+    "observacoes": [
+      "",
+      "Corte anterior: -372.3"
+    ],
+    "timestamp": "05/04/2025, 15:13:26"
+  },
+  "N AP 1 LITRO ": {
+    "repeticao": "190",
+    "chagrim": "Não",
+    "corte": -345,
+    "velocidade": "",
+    "perimetro": 890,
+    "observacoes": [
+      "",
+      "Corte anterior: -348"
+    ],
+    "timestamp": "05/04/2025, 16:02:17"
+  },
+  "F ORIGINAL 600 REV 02": {
+    "repeticao": "63",
+    "chagrim": "Sim",
+    "corte": -233,
+    "velocidade": "246",
+    "perimetro": 846.8,
+    "observacoes": [
+      "Arte nova ",
+      "Corte anterior: -314.9"
+    ]
+  },
+  "F ORIGINAL 300 429 REV03": {
+    "repeticao": "154",
+    "chagrim": "Sim",
+    "corte": -334,
+    "velocidade": "249",
+    "perimetro": 868,
+    "observacoes": [
+      "Rodando muito mau depois do overhal maquina não passa de 150 falha de inversor povo sofrendo kkkk",
+      "Antes -242.1 agora -333.4",
+      "Rodando 243 porque não tem bobina no pulmao ",
+      "Rodando bem operador novo geraldinho",
+      "Pontinha da folha lado de trás lado cerutti dobrando pra baixo mais poucas ",
+      "Puxando um pouco a folha lado cerutti , configurado rolo auxiliar acrilico ",
+      "1. Corte anterior: -332.2",
+      "produto com arte nova"
+    ],
+    "timestamp": "31/10/2025, 14:46:18"
+  },
+  "F N PACENA 710": {
+    "repeticao": "68",
+    "chagrim": "Sim",
+    "corte": -297.6,
+    "velocidade": "240",
+    "perimetro": 830,
+    "observacoes": [
+      "F .50 N.57 ",
+      ""
+    ],
+    "timestamp": "05/04/2025, 21:50:15"
+  },
+  "F BOHEMIA 300": {
+    "repeticao": "154",
+    "chagrim": "Não",
+    "corte": -352.2,
+    "velocidade": "249",
+    "perimetro": 890,
+    "observacoes": [
+      "Folhas saindo da pilha e com falha de corte , troquei a posição do papel por fora do chagrim e parou deixei o balançando com 1",
+      ""
+    ],
+    "timestamp": "02/09/2025, 16:06:00"
+  },
+  "F ORIGINAL 600 NIV 024": {
+    "repeticao": "72",
+    "chagrim": "Sim",
+    "corte": -370.4,
+    "velocidade": "246",
+    "perimetro": 914,
+    "observacoes": [
+      "Antes 255 depois 235 cabaço trocou a faca ",
+      "Ajustei a faca depois que o nei trocou de boa , 255 sem problemas ",
+      "Volta do pcm antes das minhas férias ",
+      "Angulo parafuso da frente quase no meio cima e rolo auxiliar um pouco baixo mais nem tanto , rolo segundo auxiliar lado cerutti um pouco mais baixo que o lado rotomec aí as folhas não dobram ",
+      "Dobrando folhas lado cerruti rolo auxiliar todo levantado e ângulo parafuso primeiro mais alto que o meio parou de dobrar folhas ",
+      "Antes -277.6 agora - 368",
+      "Rolo do acrílico sem encostar ",
+      "Folhas jogando para o lado cerutti e muitos enroscamentos seguidos ao subir velocidade depois de 180 ,ajuste da faca e rolo auxiliar deixei um pouco mais baixo mais nem tanto e melhorou ",
+      ""
+    ],
+    "timestamp": "02/03/2026, 17:12:38"
+  },
+  "F ORIGINAL 300  OW 429 REV03": {
+    "repeticao": "154",
+    "chagrim": "Sim",
+    "corte": -335.6,
+    "velocidade": "250",
+    "perimetro": 868,
+    "observacoes": [
+      "Rodando 237 porque cansei",
+      "Ficha de processo estava com perimetro errado 897.1 ,",
+      ""
+    ],
+    "timestamp": "24/11/2025, 22:21:24"
+  },
+  "F AP 300 429": {
+    "repeticao": "154",
+    "chagrim": "Não",
+    "corte": -340,
+    "velocidade": "227",
+    "perimetro": 873.5,
+    "observacoes": [
+      "Folhas dobrando nas pontas , ajuste do rolo acrilico mais baixo ,ângulo parafuso mais baixo tb e sopradores mais inclinados um pouco mais de pressao",
+      "Maquina ruim de manha de novo enroscamentos seguidos e não bateu o gly,  a tarde feito ajuste do ângulo do mesmo geito do original pra não dobrar as folhas parafuso quase no centro cima e rolo auxiliar um pouco baixo , freio e roldanas também foi ajustado ,mais o principal mesmo a faca batendo muito foi feito o ajuste da faca e vuala 250 de novo ou pessoal e muito burro ou nos somos bons demais ",
+      "Corte anterior-247.3",
+      "Corte anterior -245.1",
+      "Passei um 10 a 90 de velocidade e não enroscou ",
+      ""
+    ],
+    "timestamp": "17/12/2025, 04:15:21"
+  },
+  "F BC 1L": {
+    "repeticao": "63",
+    "chagrim": "Não",
+    "corte": -311,
+    "velocidade": "249",
+    "perimetro": 847.9,
+    "observacoes": [
+      ""
+    ],
+    "timestamp": "28/04/2025, 18:43:42"
+  },
+  "F BC 1L 429": {
+    "repeticao": "63",
+    "chagrim": "Não",
+    "corte": -314,
+    "velocidade": "250",
+    "perimetro": 847.9,
+    "observacoes": [
+      "Maquina enroscando muito acho que a faca está muito ajustada batendo muito  ninguém viu o rolamento lado rotomec tremendo pra variar de manha 66 gly mais ta bom você só da aquilo que você tem né ",
+      "Maquina enroscando a 230 mexi no ângulo roldanas erradas e sopradores de levantar a folhas obs caixa de vácuo estava pouco inclinada desci mais a frente e atrás ficou mais levantado pronto 250",
+      "Antes -232 agora -319",
+      ""
+    ],
+    "timestamp": "15/08/2025, 18:47:12"
+  },
+  "F ORIGINAL 1L REV 02": {
+    "repeticao": "63",
+    "chagrim": "Sim",
+    "corte": -316.8,
+    "velocidade": "249",
+    "perimetro": 846.8,
+    "observacoes": [
+      "Mesmo com a faca batendo bastante ",
+      ""
+    ],
+    "timestamp": "28/01/2026, 17:27:49"
+  },
+  "B STELLA 600 429": {
+    "repeticao": "140",
+    "chagrim": "Não",
+    "corte": -351,
+    "velocidade": "250",
+    "perimetro": 887,
+    "observacoes": [
+      "Hj rodando 240 com ed",
+      "Coloquei 250 mesmo sozinho ",
+      "Sozinho na maquina rodando 240 Matheus meteu o loko hj",
+      "Corte anterior -256.2",
+      "Corte anterior -257.6",
+      ""
+    ],
+    "timestamp": "31/01/2026, 19:32:42"
+  },
+  "F B BRAHMA MALZBIER 355": {
+    "repeticao": "76",
+    "chagrim": "Sim",
+    "corte": -314.9,
+    "velocidade": "246",
+    "perimetro": 856,
+    "observacoes": [
+      ""
+    ],
+    "timestamp": "09/04/2025, 21:50:51"
+  },
+  "F BRAHMA DUPLO MALTE 600 429": {
+    "repeticao": "80",
+    "chagrim": "Sim",
+    "corte": -367.6,
+    "velocidade": "252",
+    "perimetro": 914,
+    "observacoes": [
+      ""
+    ],
+    "timestamp": "01/08/2025, 15:42:58"
+  },
+  "N STELLA 600 EXP PARAGUAI": {
+    "repeticao": "44",
+    "chagrim": "Não",
+    "corte": -80.7,
+    "velocidade": "100",
+    "perimetro": 569,
+    "observacoes": [
+      "Rodando com overlap a 73 e 100 de velocidade ",
+      "Material muito pequeno rodando a 80 de velocidade com overlap a 77",
+      ""
+    ],
+    "timestamp": "24/09/2025, 16:14:15"
+  },
+  "F BC 940 REV 02 PY": {
+    "repeticao": "80",
+    "chagrim": "Sim",
+    "corte": -311.1,
+    "velocidade": "249",
+    "perimetro": 846.8,
+    "observacoes": [
+      "Muito forte o chagrim "
+    ],
+    "timestamp": "09/04/2025, 15:07:11"
+  },
+  "F AP SUB ZERO 600 429": {
+    "repeticao": "90",
+    "chagrim": "Não",
+    "corte": -373.5,
+    "velocidade": "249",
+    "perimetro": 918.6,
+    "observacoes": [
+      ""
+    ],
+    "timestamp": "02/08/2025, 14:36:39"
+  },
+  "F N NORTEÑA 960ML UY 24": {
+    "repeticao": "56",
+    "chagrim": "Não",
+    "corte": -369.3,
+    "velocidade": "250",
+    "perimetro": 912,
+    "observacoes": [
+      "Depois do pcm que trocou o rolo de borracha e deu errado de novo povo burro ",
+      "N rep 58"
+    ],
+    "timestamp": "10/09/2025, 18:24:24"
+  },
+  "B NORTEÑA 960 UY 025": {
+    "repeticao": "240",
+    "chagrim": "Não",
+    "corte": -266.1,
+    "velocidade": "",
+    "perimetro": 890,
+    "observacoes": [
+      ""
+    ],
+    "timestamp": "10/02/2025, 08:08:54"
+  },
+  "N STELLA PURE GOLD ROLAND GARROS 330": {
+    "repeticao": "70",
+    "chagrim": "Sim",
+    "corte": -81.6,
+    "velocidade": "155",
+    "perimetro": 650,
+    "observacoes": [
+      "Corte antes -83",
+      "Folhas dobrando subi um pouco rolo auxiliar , levantei um pouco sopradores do meio abaixador de calda parou de dobrar lado rotomec ",
+      "Nova arte "
+    ],
+    "timestamp": "12/03/2025, 06:08:34"
+  },
+  "F PACENA 710": {
+    "repeticao": "50",
+    "chagrim": "Sim",
+    "corte": -314.6,
+    "velocidade": "220",
+    "perimetro": 846.8,
+    "observacoes": [
+      "Troca de faca ",
+      ""
+    ],
+    "timestamp": "23/02/2026, 19:31:36"
+  },
+  "F STELLA 600 429": {
+    "repeticao": "70",
+    "chagrim": "Não",
+    "corte": -302.6,
+    "velocidade": "246",
+    "perimetro": 830,
+    "observacoes": [
+      ""
+    ],
+    "timestamp": "19/01/2026, 17:20:03"
+  },
+  "F AP 600 429": {
+    "repeticao": "72",
+    "chagrim": "Não",
+    "corte": -373.6,
+    "velocidade": "230",
+    "perimetro": 914,
+    "observacoes": [
+      "Corte antes -278.6 agora 368",
+      "Corte anterior 277.4",
+      "Bobinas sem descanso rodando devagar ",
+      ""
+    ],
+    "timestamp": "18/12/2025, 02:37:53"
+  },
+  "F PACENA 620 2024": {
+    "repeticao": "108",
+    "chagrim": "Sim",
+    "corte": -365.5,
+    "velocidade": "236",
+    "perimetro": 907.5,
+    "observacoes": [
+      ""
+    ],
+    "timestamp": "13/02/2026, 20:53:50"
+  },
+  "N STELLA 600 429": {
+    "repeticao": "55",
+    "chagrim": "Não",
+    "corte": -188.9,
+    "velocidade": "169",
+    "perimetro": 693,
+    "observacoes": [
+      "Volta do pcm e troca de faca hoje dia 27.08.25 Luciano trocou a faca ruim tive que tocar novamente, faca ficou boa , problema que só consegui puxar a máquina a 80 porque dava falha de registro não dava pra puxar nem a 100 nem a 150 puxa a 80 e sobe aos poucos aí vai ",
+      "Antes -113.4 agora -182.4",
+      ""
+    ],
+    "timestamp": "21/11/2025, 19:00:21"
+  },
+  "F BC 600 429": {
+    "repeticao": "80",
+    "chagrim": "Não",
+    "corte": -372.9,
+    "velocidade": "249",
+    "perimetro": 914,
+    "observacoes": [
+      "Folhas embolando como se tivesse rugas deixei overlap 75 e vuala 255 de velocidade depois que o Matheus foi embora a pergunta é porque eles também não tentam ",
+      "Corte hoje-366.1",
+      "Antes corte-367.3 agora -365.9",
+      "Muitos enroscamentos papel do original dentro das correias na chapa de descarte fazendo enroscar ",
+      ""
+    ],
+    "timestamp": "02/09/2025, 14:58:23"
+  },
+  "F ORIGINAL 300 429  RGB REV03": {
+    "repeticao": "154",
+    "chagrim": "Sim",
+    "corte": -332.8,
+    "velocidade": "246",
+    "perimetro": 868,
+    "observacoes": [
+      "Muitos enroscamentos depois de tanto tentar subir velocidade tirei a chapa e tinha um parafuso Luciano deixou cair parafuso entre o rolo de aco e a faca ",
+      "Troca da faca com o Matheus a tarde"
+    ],
+    "timestamp": "19/02/2026, 19:50:04"
+  },
+  "F BRAHMITA 340 REV02": {
+    "repeticao": "110",
+    "chagrim": "Sim",
+    "corte": -308.8,
+    "velocidade": "249",
+    "perimetro": 846.8,
+    "observacoes": [
+      ""
+    ],
+    "timestamp": "30/04/2025, 17:57:48"
+  },
+  "N BRAHMITA 340 REV02": {
+    "repeticao": "300",
+    "chagrim": "Sim",
+    "corte": -325,
+    "velocidade": "249",
+    "perimetro": 865.2,
+    "observacoes": [
+      ""
+    ],
+    "timestamp": "30/04/2025, 20:16:12"
+  },
+  "N BC 1L": {
+    "repeticao": "1",
+    "chagrim": "Não",
+    "corte": -343.1,
+    "velocidade": "249",
+    "perimetro": 887,
+    "observacoes": [
+      ""
+    ],
+    "timestamp": "03/05/2025, 14:27:42"
+  },
+  "N BC 1L VBI IN65 21": {
+    "repeticao": "190",
+    "chagrim": "Não",
+    "corte": -342.9,
+    "velocidade": "249",
+    "perimetro": 887,
+    "observacoes": [
+      ""
+    ],
+    "timestamp": "03/05/2025, 18:03:39"
+  },
+  "N AP 1L IN65": {
+    "repeticao": "190",
+    "chagrim": "Não",
+    "corte": -352.4,
+    "velocidade": "249",
+    "perimetro": 890,
+    "observacoes": [
+      "Rodando bem o neck stella 330 pure gold não passava de 100",
+      ""
+    ],
+    "timestamp": "04/02/2026, 15:16:25"
+  },
+  "F SKOL 300 RGB NIV 22": {
+    "repeticao": "156",
+    "chagrim": "Não",
+    "corte": -362.8,
+    "velocidade": "250",
+    "perimetro": 910,
+    "observacoes": [
+      ""
+    ],
+    "timestamp": "07/07/2025, 14:36:27"
+  },
+  "F N PATRICIA LAGER 960 025 UY": {
+    "repeticao": "5660",
+    "chagrim": "Sim",
+    "corte": -368.1,
+    "velocidade": "246",
+    "perimetro": 910,
+    "observacoes": [
+      "Produto novo"
+    ],
+    "timestamp": "09/02/2026, 15:35:14"
+  },
+  "F B ZILLERTAL 970 UY ": {
+    "repeticao": "4545",
+    "chagrim": "Sim",
+    "corte": -328.1,
+    "velocidade": "",
+    "perimetro": 868,
+    "observacoes": [
+      ""
+    ],
+    "timestamp": "09/07/2025, 17:08:15"
+  },
+  "N BRAHMA 940 RRV02 PY": {
+    "repeticao": "220",
+    "chagrim": "Sim",
+    "corte": -326.2,
+    "velocidade": "249",
+    "perimetro": 868,
+    "observacoes": [
+      ""
+    ],
+    "timestamp": "17/07/2025, 15:31:35"
+  },
+  "F BRAHMA 940 RRV02 PY": {
+    "repeticao": "56",
+    "chagrim": "Sim",
+    "corte": null,
+    "velocidade": "",
+    "perimetro": 846.8,
+    "observacoes": [
+      ""
+    ],
+    "timestamp": "17/07/2025, 15:34:00"
+  },
+  "F BRAHMA 940 REV02 PY": {
+    "repeticao": "56",
+    "chagrim": "Sim",
+    "corte": -308.1,
+    "velocidade": "249",
+    "perimetro": 846.8,
+    "observacoes": [
+      ""
+    ],
+    "timestamp": "17/07/2025, 17:56:54"
+  },
+  "BACK PILSEN 340 025 PY": {
+    "repeticao": "208",
+    "chagrim": "Sim",
+    "corte": -311,
+    "velocidade": "1",
+    "perimetro": 846.8,
+    "observacoes": [
+      ""
+    ],
+    "timestamp": "08/08/2025, 14:41:23"
+  },
+  "F N BRAHMA MUSICAL 940 PY": {
+    "repeticao": "40",
+    "chagrim": "Sim",
+    "corte": -281.8,
+    "velocidade": "230",
+    "perimetro": 808,
+    "observacoes": [
+      "Folhas ainda dobrando mais deixa pra eles arrumarem pelo menos uma vez ",
+      ""
+    ],
+    "timestamp": "22/08/2025, 22:02:47"
+  },
+  "N B PILSEN 340 2023 UY ": {
+    "repeticao": "47",
+    "chagrim": "Sim",
+    "corte": -348.8,
+    "velocidade": "248",
+    "perimetro": 890,
+    "observacoes": [
+      ""
+    ],
+    "timestamp": "26/08/2025, 17:12:43"
+  },
+  "N SKOL N SENSES 269": {
+    "repeticao": "126",
+    "chagrim": "Sim",
+    "corte": -316.8,
+    "velocidade": "240",
+    "perimetro": 846.8,
+    "observacoes": [
+      ""
+    ],
+    "timestamp": "28/01/2026, 17:28:29"
+  },
+  "B STELLA 330 429": {
+    "repeticao": "165",
+    "chagrim": "Não",
+    "corte": -321,
+    "velocidade": "230",
+    "perimetro": 854,
+    "observacoes": [
+      ""
+    ],
+    "timestamp": "13/02/2026, 14:47:27"
+  },
+  "F STELLA 330 ": {
+    "repeticao": "150",
+    "chagrim": "Não",
+    "corte": -366.4,
+    "velocidade": "242",
+    "perimetro": 905,
+    "observacoes": [
+      ""
+    ],
+    "timestamp": "23/01/2026, 17:31:44"
+  },
+  "F N BRAHMA MUSICAL 340 PY": {
+    "repeticao": "40",
+    "chagrim": "Sim",
+    "corte": -375,
+    "velocidade": "240",
+    "perimetro": 914,
+    "observacoes": [
+      ""
+    ],
+    "timestamp": "02/12/2025, 15:24:32"
+  },
+  "F PACENA 235 CARNAVAL ": {
+    "repeticao": "120",
+    "chagrim": "Sim",
+    "corte": -303.5,
+    "velocidade": "230",
+    "perimetro": 830,
+    "observacoes": [
+      "Rodando sozinho a noite "
+    ],
+    "timestamp": "15/12/2025, 00:18:02"
+  },
+  "N STELLA 330 429": {
+    "repeticao": "70",
+    "chagrim": "Não",
+    "corte": -153,
+    "velocidade": "169",
+    "perimetro": 650,
+    "observacoes": [
+      ""
+    ],
+    "timestamp": "16/12/2025, 02:25:35"
+  },
+  "F PACENA 710 CARNAVAL": {
+    "repeticao": "60",
+    "chagrim": "Sim",
+    "corte": -230.9,
+    "velocidade": "200",
+    "perimetro": 745,
+    "observacoes": [
+      "Rodando devagar produto novo perimetro menor e fluxo ajustado ,pessoal sofreu porque dobrava muita folha rodei a 170 fd"
+    ],
+    "timestamp": "16/12/2025, 23:18:15"
+  },
+  "N PACENA 710 CARNAVAL": {
+    "repeticao": "247",
+    "chagrim": "Sim",
+    "corte": -370.9,
+    "velocidade": "230",
+    "perimetro": 910,
+    "observacoes": [
+      ""
+    ],
+    "timestamp": "17/12/2025, 01:39:57"
+  },
+  "F BC 1L ARG": {
+    "repeticao": "49",
+    "chagrim": "Sim",
+    "corte": -326.1,
+    "velocidade": "200",
+    "perimetro": 856,
+    "observacoes": [
+      "Material sem descanso ",
+      ""
+    ],
+    "timestamp": "24/12/2025, 04:39:08"
+  },
+  "F SKOL 1 L VBI 025": {
+    "repeticao": "56",
+    "chagrim": "Não",
+    "corte": -316,
+    "velocidade": "246",
+    "perimetro": 850,
+    "observacoes": [
+      ""
+    ],
+    "timestamp": "09/02/2026, 15:35:45"
+  },
+  "B N PILSEN 340 2023 UY": {
+    "repeticao": "1",
+    "chagrim": "Sim",
+    "corte": -353,
+    "velocidade": "237",
+    "perimetro": 890,
+    "observacoes": [
+      "N152 B147 rep"
+    ],
+    "timestamp": "22/01/2026, 16:14:08"
+  },
+  "B PILSEN 340 REV2 2025 PY": {
+    "repeticao": "208",
+    "chagrim": "Sim",
+    "corte": -316.8,
+    "velocidade": "230",
+    "perimetro": 846.8,
+    "observacoes": [
+      ""
+    ],
+    "timestamp": "22/01/2026, 19:20:36"
+  },
+  "N STELLA PURE GOLD 330 ML AR": {
+    "repeticao": "70",
+    "chagrim": "Sim",
+    "corte": -187.6,
+    "velocidade": "118",
+    "perimetro": 693,
+    "observacoes": [
+      "Rodando devagar devido a muitas folhas dobradas ",
+      ""
+    ],
+    "timestamp": "23/01/2026, 19:19:33"
+  },
+  "F BUDWEISER COPA 1L": {
+    "repeticao": "1",
+    "chagrim": "Sim",
+    "corte": -319.1,
+    "velocidade": "243",
+    "perimetro": 850,
+    "observacoes": [
+      ""
+    ],
+    "timestamp": "06/02/2026, 18:47:44"
+  },
+  "F BUDWEISER COPA 600": {
+    "repeticao": "72",
+    "chagrim": "Sim",
+    "corte": -322.4,
+    "velocidade": "1",
+    "perimetro": 856,
+    "observacoes": [
+      ""
+    ],
+    "timestamp": "09/02/2026, 22:05:49"
+  },
+  "F AP SUB ZERO 1 L 429": {
+    "repeticao": "56",
+    "chagrim": "Não",
+    "corte": -311.4,
+    "velocidade": "230",
+    "perimetro": 842,
+    "observacoes": [
+      ""
+    ],
+    "timestamp": "13/02/2026, 19:48:54"
+  },
+  "F B BRAHMA ZERO 355 REV2 ": {
+    "repeticao": "8176",
+    "chagrim": "Sim",
+    "corte": -332.7,
+    "velocidade": "230",
+    "perimetro": 868,
+    "observacoes": [
+      "Dobrando folhas ao subir velocidade ",
+      ""
+    ],
+    "timestamp": "21/02/2026, 01:52:07"
+  }
+}

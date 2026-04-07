@@ -1,0 +1,1414 @@
+[
+  {
+    "id": "b2520f48-049e-45b3-9887-23bc4359f164",
+    "cut": "-233",
+    "name": "F ORIGINAL 600 REV 02",
+    "image": null,
+    "speed": "246",
+    "chagrim": "Sim",
+    "createdAt": 1773184357439,
+    "paperType": "Couché",
+    "perimeter": "846.8",
+    "repetition": "63",
+    "observations": [
+      "Arte nova ",
+      "Corte anterior: -314.9"
+    ]
+  },
+  {
+    "id": "2afde059-faa3-4418-8c9b-f07a3810c58f",
+    "cut": "-263.7",
+    "name": "F N BOHEMIA 990 IN65 21",
+    "image": null,
+    "speed": "247",
+    "chagrim": "Não",
+    "createdAt": 1773184357439,
+    "paperType": "Couché",
+    "perimeter": "882",
+    "repetition": "45",
+    "observations": [
+      "Corte anterior: -345.6"
+    ]
+  },
+  {
+    "id": "ef516066-0ccf-4691-8851-5b1dd7780384",
+    "cut": "-374",
+    "name": "F SKOL 600",
+    "image": null,
+    "speed": "243",
+    "chagrim": "Não",
+    "createdAt": 1772502080000,
+    "paperType": "Couché",
+    "perimeter": "918.6",
+    "repetition": "90",
+    "observations": [
+      "Hoje dia 19.07.25 pessoal não conseguiu rodar máquina embolando papel na mesa ,cheguei e vi que o rolo de entrada da mesa estava parando por causa das correias laterais que estavam rolando em falso henrikson atuou colocanso fita isolante pra aumentar o perímetro da peça até confeccionar outra, foi um caos de manhã ",
+      "Bobinas foram rebobinadas para repassar o verniz corte ao contrário -371.7",
+      "Rodando bem podendo ir além de 250 ",
+      "",
+      "Corte anterior: -375.7"
+    ]
+  },
+  {
+    "id": "2c569161-659c-4892-91ab-68dcd7c0c9b6",
+    "cut": "-370.4",
+    "name": "F ORIGINAL 600 NIV 024",
+    "image": null,
+    "speed": "246",
+    "chagrim": "Sim",
+    "createdAt": 1772482358000,
+    "paperType": "Couché",
+    "perimeter": "914",
+    "repetition": "72",
+    "observations": [
+      "Antes 255 depois 235 cabaço trocou a faca ",
+      "Ajustei a faca depois que o nei trocou de boa , 255 sem problemas ",
+      "Volta do pcm antes das minhas férias ",
+      "Angulo parafuso da frente quase no meio cima e rolo auxiliar um pouco baixo mais nem tanto , rolo segundo auxiliar lado cerutti um pouco mais baixo que o lado rotomec aí as folhas não dobram ",
+      "Dobrando folhas lado cerruti rolo auxiliar todo levantado e ângulo parafuso primeiro mais alto que o meio parou de dobrar folhas ",
+      "Antes -277.6 agora - 368",
+      "Rolo do acrílico sem encostar ",
+      "Folhas jogando para o lado cerutti e muitos enroscamentos seguidos ao subir velocidade depois de 180 ,ajuste da faca e rolo auxiliar deixei um pouco mais baixo mais nem tanto e melhorou ",
+      ""
+    ]
+  },
+  {
+    "id": "7c7fc2f4-2a0d-4a3f-bb2e-6d8d8a3a8570",
+    "cut": "-321",
+    "name": "F PACENA 1000",
+    "image": null,
+    "speed": "246",
+    "chagrim": "Sim",
+    "createdAt": 1772061484000,
+    "paperType": "Couché",
+    "perimeter": "850",
+    "repetition": "70",
+    "observations": [
+      "Folhas dobram quando coloca em 100 já tem que puxar a 150 ",
+      "",
+      "Corte anterior: -316"
+    ]
+  },
+  {
+    "id": "9ba530db-c4d1-4149-b6a5-06efba00b859",
+    "cut": "-370",
+    "name": "F SPATEN 600",
+    "image": null,
+    "speed": "249",
+    "chagrim": "Sim",
+    "createdAt": 1772041390000,
+    "paperType": "Couché",
+    "perimeter": "914",
+    "repetition": "80",
+    "observations": [
+      "-366 com o sensor virado lado rotomec",
+      "Mesa está torta fazendo enroscamentos devido a altura ",
+      "",
+      "Corte anterior: 372"
+    ]
+  },
+  {
+    "id": "c07a3871-5f41-439f-8ff8-0cdb25cf215d",
+    "cut": "-314.6",
+    "name": "F PACENA 710",
+    "image": null,
+    "speed": "220",
+    "chagrim": "Sim",
+    "createdAt": 1771885896000,
+    "paperType": "Couché",
+    "perimeter": "846.8",
+    "repetition": "50",
+    "observations": [
+      "Troca de faca ",
+      ""
+    ]
+  },
+  {
+    "id": "6560d3c8-ee58-4dd9-8de5-f6db08d5e1fe",
+    "cut": "-185.8",
+    "name": "N STELLA 660 CHILE",
+    "image": null,
+    "speed": "155",
+    "chagrim": "Não",
+    "createdAt": 1771697088000,
+    "paperType": "Couché",
+    "perimeter": "692",
+    "repetition": "55",
+    "observations": [
+      "rodando devagar devido a folhas dobradas ",
+      "Muitos enroscamentos depois que o Luciano trocou a faca dia 15.01.26 folhas dobrando nas pontas ao subir velocidade rodou a 140 ",
+      "Corte 180.3 depois que eu regulei o alinhador e o sensor estava fora ",
+      "Antes -113 agora -184",
+      "Dobrando folhas abaixei rolo auxiliar e mexi no ângulo mais baixo parafuso "
+    ]
+  },
+  {
+    "id": "15fc73e8-170e-4e37-863d-1a8dc8b356b9",
+    "cut": "-332.7",
+    "name": "F B BRAHMA ZERO 355 REV2",
+    "image": null,
+    "speed": "230",
+    "chagrim": "Sim",
+    "createdAt": 1771649527000,
+    "paperType": "Couché",
+    "perimeter": "868",
+    "repetition": "8176",
+    "observations": [
+      "Dobrando folhas ao subir velocidade ",
+      ""
+    ]
+  },
+  {
+    "id": "678c901c-85f2-47d8-9e85-504fc5b2c10d",
+    "cut": "-332.8",
+    "name": "F ORIGINAL 300 429  RGB REV03",
+    "image": null,
+    "speed": "246",
+    "chagrim": "Sim",
+    "createdAt": 1771541404000,
+    "paperType": "Couché",
+    "perimeter": "868",
+    "repetition": "154",
+    "observations": [
+      "Muitos enroscamentos depois de tanto tentar subir velocidade tirei a chapa e tinha um parafuso Luciano deixou cair parafuso entre o rolo de aco e a faca ",
+      "Troca da faca com o Matheus a tarde"
+    ]
+  },
+  {
+    "id": "ee90cd9e-d633-471a-88eb-a781c77941c2",
+    "cut": "-365.5",
+    "name": "F PACENA 620 2024",
+    "image": null,
+    "speed": "236",
+    "chagrim": "Sim",
+    "createdAt": 1771026830000,
+    "paperType": "Couché",
+    "perimeter": "907.5",
+    "repetition": "108",
+    "observations": [
+      ""
+    ]
+  },
+  {
+    "id": "e6929353-f1ff-4c6f-83fd-da50804e0d34",
+    "cut": "-311.4",
+    "name": "F AP SUB ZERO 1 L 429",
+    "image": null,
+    "speed": "230",
+    "chagrim": "Não",
+    "createdAt": 1771022934000,
+    "paperType": "Couché",
+    "perimeter": "842",
+    "repetition": "56",
+    "observations": [
+      ""
+    ]
+  },
+  {
+    "id": "4cff81d8-10fe-42a4-94a7-51eebd4332e9",
+    "cut": "-321",
+    "name": "B STELLA 330 429",
+    "image": null,
+    "speed": "230",
+    "chagrim": "Não",
+    "createdAt": 1771004847000,
+    "paperType": "Couché",
+    "perimeter": "854",
+    "repetition": "165",
+    "observations": [
+      ""
+    ]
+  },
+  {
+    "id": "0d0b4a09-d601-405c-97b6-fe59b6298d06",
+    "cut": "-376.7",
+    "name": "F PACENA 235",
+    "image": null,
+    "speed": "249",
+    "chagrim": "Sim",
+    "createdAt": 1770917507000,
+    "paperType": "Couché",
+    "perimeter": "918.6",
+    "repetition": "135",
+    "observations": [
+      "Overlap 66",
+      "Corte anterior: 376"
+    ]
+  },
+  {
+    "id": "b104e00f-0dca-4e3b-a6ff-d7996aef4776",
+    "cut": "-322.4",
+    "name": "F BUDWEISER COPA 600",
+    "image": null,
+    "speed": "1",
+    "chagrim": "Sim",
+    "createdAt": 1770685549000,
+    "paperType": "Couché",
+    "perimeter": "856",
+    "repetition": "72",
+    "observations": [
+      ""
+    ]
+  },
+  {
+    "id": "4608b2a9-21f2-4142-ac85-b9026a388f72",
+    "cut": "-316",
+    "name": "F SKOL 1 L VBI 025",
+    "image": null,
+    "speed": "246",
+    "chagrim": "Não",
+    "createdAt": 1770662145000,
+    "paperType": "Couché",
+    "perimeter": "850",
+    "repetition": "56",
+    "observations": [
+      ""
+    ]
+  },
+  {
+    "id": "579fd2ca-ae30-47aa-b778-e576681e3bbd",
+    "cut": "-368.1",
+    "name": "F N PATRICIA LAGER 960 025 UY",
+    "image": null,
+    "speed": "246",
+    "chagrim": "Sim",
+    "createdAt": 1770662114000,
+    "paperType": "Couché",
+    "perimeter": "910",
+    "repetition": "5660",
+    "observations": [
+      "Produto novo"
+    ]
+  },
+  {
+    "id": "1f212b10-a711-489b-9996-d37fd5ab26e6",
+    "cut": "-319.1",
+    "name": "F BUDWEISER COPA 1L",
+    "image": null,
+    "speed": "243",
+    "chagrim": "Sim",
+    "createdAt": 1770414464000,
+    "paperType": "Couché",
+    "perimeter": "850",
+    "repetition": "1",
+    "observations": [
+      ""
+    ]
+  },
+  {
+    "id": "0a79058d-06de-43de-8c3b-31e4993a47f6",
+    "cut": "-352.4",
+    "name": "N AP 1L IN65",
+    "image": null,
+    "speed": "249",
+    "chagrim": "Não",
+    "createdAt": 1770228985000,
+    "paperType": "Couché",
+    "perimeter": "890",
+    "repetition": "190",
+    "observations": [
+      "Rodando bem o neck stella 330 pure gold não passava de 100",
+      ""
+    ]
+  },
+  {
+    "id": "c132b804-7f0c-478a-a0aa-dbe2e0ccc2ba",
+    "cut": "-351",
+    "name": "B STELLA 600 429",
+    "image": null,
+    "speed": "250",
+    "chagrim": "Não",
+    "createdAt": 1769898762000,
+    "paperType": "Couché",
+    "perimeter": "887",
+    "repetition": "140",
+    "observations": [
+      "Hj rodando 240 com ed",
+      "Coloquei 250 mesmo sozinho ",
+      "Sozinho na maquina rodando 240 Matheus meteu o loko hj",
+      "Corte anterior -256.2",
+      "Corte anterior -257.6",
+      ""
+    ]
+  },
+  {
+    "id": "d0af7fb8-04f7-483b-a737-576c254135b3",
+    "cut": "-316.8",
+    "name": "N SKOL N SENSES 269",
+    "image": null,
+    "speed": "240",
+    "chagrim": "Sim",
+    "createdAt": 1769632109000,
+    "paperType": "Couché",
+    "perimeter": "846.8",
+    "repetition": "126",
+    "observations": [
+      ""
+    ]
+  },
+  {
+    "id": "663891f9-b766-4b09-9ff2-ad3a353e19b8",
+    "cut": "-316.8",
+    "name": "F ORIGINAL 1L REV 02",
+    "image": null,
+    "speed": "249",
+    "chagrim": "Sim",
+    "createdAt": 1769632069000,
+    "paperType": "Couché",
+    "perimeter": "846.8",
+    "repetition": "63",
+    "observations": [
+      "Mesmo com a faca batendo bastante ",
+      ""
+    ]
+  },
+  {
+    "id": "365ead03-890e-4f36-b84d-cab67020098c",
+    "cut": "-187.6",
+    "name": "N STELLA PURE GOLD 330 ML AR",
+    "image": null,
+    "speed": "118",
+    "chagrim": "Sim",
+    "createdAt": 1769206773000,
+    "paperType": "Couché",
+    "perimeter": "693",
+    "repetition": "70",
+    "observations": [
+      "Rodando devagar devido a muitas folhas dobradas ",
+      ""
+    ]
+  },
+  {
+    "id": "1c782b18-df89-46d7-a8c3-195604827014",
+    "cut": "-366.4",
+    "name": "F STELLA 330",
+    "image": null,
+    "speed": "242",
+    "chagrim": "Não",
+    "createdAt": 1769200304000,
+    "paperType": "Couché",
+    "perimeter": "905",
+    "repetition": "150",
+    "observations": [
+      ""
+    ]
+  },
+  {
+    "id": "8b9a4392-f5c9-4228-bb25-939b509b222f",
+    "cut": "-316.8",
+    "name": "B PILSEN 340 REV2 2025 PY",
+    "image": null,
+    "speed": "230",
+    "chagrim": "Sim",
+    "createdAt": 1769120436000,
+    "paperType": "Couché",
+    "perimeter": "846.8",
+    "repetition": "208",
+    "observations": [
+      ""
+    ]
+  },
+  {
+    "id": "f0f0eae0-839f-40ca-bac0-565c12739304",
+    "cut": "-353",
+    "name": "B N PILSEN 340 2023 UY",
+    "image": null,
+    "speed": "237",
+    "chagrim": "Sim",
+    "createdAt": 1769109248000,
+    "paperType": "Couché",
+    "perimeter": "890",
+    "repetition": "1",
+    "observations": [
+      "N152 B147 rep"
+    ]
+  },
+  {
+    "id": "39f0c3db-49aa-469c-831b-e31c01395824",
+    "cut": "-365.8",
+    "name": "B STELLA 660 CHILE",
+    "image": null,
+    "speed": "248",
+    "chagrim": "Não",
+    "createdAt": 1769043352000,
+    "paperType": "Couché",
+    "perimeter": "905",
+    "repetition": "182",
+    "observations": [
+      "No horário de almoço ed não conseguiu rodar a maquina girou o ângulo todo e fez com que as folhas ficassem enroscando ,tive que voltar da janta e arrumar ",
+      "Antes-280.1  agora -350.6",
+      "Rodando muito bem ",
+      "",
+      "Corte anterior: 365"
+    ]
+  },
+  {
+    "id": "d6d1006b-09b9-4139-8848-25b5c2d7f5cb",
+    "cut": "-377.5",
+    "name": "F STELLA 660 CHILE",
+    "image": null,
+    "speed": "246",
+    "chagrim": "Não",
+    "createdAt": 1768930672000,
+    "paperType": "Couché",
+    "perimeter": "918.6",
+    "repetition": "96",
+    "observations": [
+      "Depois do pcm maquina ruim",
+      "Corte anterior: 376.6"
+    ]
+  },
+  {
+    "id": "ab5d003b-cbe8-43d9-a0d3-2b3450341944",
+    "cut": "-302.6",
+    "name": "F STELLA 600 429",
+    "image": null,
+    "speed": "246",
+    "chagrim": "Não",
+    "createdAt": 1768854003000,
+    "paperType": "Couché",
+    "perimeter": "830",
+    "repetition": "70",
+    "observations": [
+      ""
+    ]
+  },
+  {
+    "id": "3f90d084-edf3-4138-b8ca-159d84fd5291",
+    "cut": "-321.3",
+    "name": "F AP 1 L",
+    "image": null,
+    "speed": "245",
+    "chagrim": "Não",
+    "createdAt": 1767737966000,
+    "paperType": "Couché",
+    "perimeter": "850",
+    "repetition": "63",
+    "observations": [
+      "Muitos enroscamentos seguidos ,rolo auxiliar bem próximo dos abaixsdores deixei a marca com tinta preta , rolo acrilico baixo e overlap 77",
+      "Folhas enrolando no rolo de aco e folhas sendo jogadas lado rotomec foi ajustada a chapa da faca encostada porém no pcm tem que verificar certinho ",
+      "Folhas dobrando nas pontas ,foi levantado o rolo auxiliar e parou de dobrar ",
+      "-235.6 o corte novo",
+      "Rodando baixo devido a enroscamentos ao subir velocidade ",
+      "Corte anterior: -317.6"
+    ]
+  },
+  {
+    "id": "00aaf209-f737-4fa5-912d-657bfde4ac90",
+    "cut": "-269.2",
+    "name": "F B STELLA PY 600",
+    "image": null,
+    "speed": "223",
+    "chagrim": "Não",
+    "createdAt": 1767721777000,
+    "paperType": "Couché",
+    "perimeter": "790",
+    "repetition": "1",
+    "observations": [
+      "Antes 189.4 agora 269.2",
+      "Corte anterior: -271.3"
+    ]
+  },
+  {
+    "id": "65033ece-249b-4420-b74d-06bb28375ef6",
+    "cut": "-151.2",
+    "name": "N STELLA PURE GOLD 330",
+    "image": null,
+    "speed": "166",
+    "chagrim": "Sim",
+    "createdAt": 1767634274000,
+    "paperType": "Couché",
+    "perimeter": "650",
+    "repetition": "70",
+    "observations": [
+      "Mudança de cor do sensor de vermelho para azul não pega o corte com o vermelho ",
+      "Rodar sempre com as pas laterais de saída da faca mais abertas ",
+      "Overlap a 76 melhorou também a questão das folhas dobradas ",
+      "Rodando a 169 porque estava dobrando folhas ambos lados , ângulo diagonal pra baixo,  rolo auxiliar encostado um pouco ,guia cerutti um pouco aberta ,guia rotomec também sopradores reto perimetro 650 mais freio a 645",
+      "Mexi na barra de acionamento do ar e inclinei ela mais pra baixo e parou de dobrar folhas ",
+      "Folhas amassando nas laterais e sensor de corte estava vermelho fizeram atuação no sensor e voltou a cor azul",
+      "Dobrando folhas lateral ao subir velocidade ",
+      "Fluxo 10 mil",
+      "Corte anterior: -151.6"
+    ]
+  },
+  {
+    "id": "196a3949-05c4-4596-a39d-9d16e601dd8e",
+    "cut": "-326.1",
+    "name": "F BC 1L ARG",
+    "image": null,
+    "speed": "200",
+    "chagrim": "Sim",
+    "createdAt": 1766561948000,
+    "paperType": "Couché",
+    "perimeter": "856",
+    "repetition": "49",
+    "observations": [
+      "Material sem descanso ",
+      ""
+    ]
+  },
+  {
+    "id": "98d89ee8-a0c2-4142-a3fd-92610bae092b",
+    "cut": "-373.6",
+    "name": "F AP 600 429",
+    "image": null,
+    "speed": "230",
+    "chagrim": "Não",
+    "createdAt": 1766036273000,
+    "paperType": "Couché",
+    "perimeter": "914",
+    "repetition": "72",
+    "observations": [
+      "Corte antes -278.6 agora 368",
+      "Corte anterior 277.4",
+      "Bobinas sem descanso rodando devagar ",
+      ""
+    ]
+  },
+  {
+    "id": "16321862-4d41-4857-afc0-73a641e150ef",
+    "cut": "-340",
+    "name": "F AP 300 429",
+    "image": null,
+    "speed": "227",
+    "chagrim": "Não",
+    "createdAt": 1765955721000,
+    "paperType": "Couché",
+    "perimeter": "873.5",
+    "repetition": "154",
+    "observations": [
+      "Folhas dobrando nas pontas , ajuste do rolo acrilico mais baixo ,ângulo parafuso mais baixo tb e sopradores mais inclinados um pouco mais de pressao",
+      "Maquina ruim de manha de novo enroscamentos seguidos e não bateu o gly,  a tarde feito ajuste do ângulo do mesmo geito do original pra não dobrar as folhas parafuso quase no centro cima e rolo auxiliar um pouco baixo , freio e roldanas também foi ajustado ,mais o principal mesmo a faca batendo muito foi feito o ajuste da faca e vuala 250 de novo ou pessoal e muito burro ou nos somos bons demais ",
+      "Corte anterior-247.3",
+      "Corte anterior -245.1",
+      "Passei um 10 a 90 de velocidade e não enroscou ",
+      ""
+    ]
+  },
+  {
+    "id": "c3408e66-ec21-4c57-b9c4-8b8975392874",
+    "cut": "-370.9",
+    "name": "N PACENA 710 CARNAVAL",
+    "image": null,
+    "speed": "230",
+    "chagrim": "Sim",
+    "createdAt": 1765946397000,
+    "paperType": "Couché",
+    "perimeter": "910",
+    "repetition": "247",
+    "observations": [
+      ""
+    ]
+  },
+  {
+    "id": "9dcc8ebf-6758-44ce-8db0-9db70e7cd193",
+    "cut": "-230.9",
+    "name": "F PACENA 710 CARNAVAL",
+    "image": null,
+    "speed": "200",
+    "chagrim": "Sim",
+    "createdAt": 1765937895000,
+    "paperType": "Couché",
+    "perimeter": "745",
+    "repetition": "60",
+    "observations": [
+      "Rodando devagar produto novo perimetro menor e fluxo ajustado ,pessoal sofreu porque dobrava muita folha rodei a 170 fd"
+    ]
+  },
+  {
+    "id": "a6843a84-0cb5-40a4-97d0-c1a93e34f9a7",
+    "cut": "-153",
+    "name": "N STELLA 330 429",
+    "image": null,
+    "speed": "169",
+    "chagrim": "Não",
+    "createdAt": 1765862735000,
+    "paperType": "Couché",
+    "perimeter": "650",
+    "repetition": "70",
+    "observations": [
+      ""
+    ]
+  },
+  {
+    "id": "160ee9dc-221d-4266-9427-1f5bd4716e3e",
+    "cut": "-303.5",
+    "name": "F PACENA 235 CARNAVAL",
+    "image": null,
+    "speed": "230",
+    "chagrim": "Sim",
+    "createdAt": 1765768682000,
+    "paperType": "Couché",
+    "perimeter": "830",
+    "repetition": "120",
+    "observations": [
+      "Rodando sozinho a noite "
+    ]
+  },
+  {
+    "id": "5d74f261-94c0-4905-9fd5-8122da86bdef",
+    "cut": "-375",
+    "name": "F N BRAHMA MUSICAL 340 PY",
+    "image": null,
+    "speed": "240",
+    "chagrim": "Sim",
+    "createdAt": 1764699872000,
+    "paperType": "Couché",
+    "perimeter": "914",
+    "repetition": "40",
+    "observations": [
+      ""
+    ]
+  },
+  {
+    "id": "baf51aa8-4ad8-4a80-a26b-afd10b3f575b",
+    "cut": "-335.6",
+    "name": "F ORIGINAL 300  OW 429 REV03",
+    "image": null,
+    "speed": "250",
+    "chagrim": "Sim",
+    "createdAt": 1764033684000,
+    "paperType": "Couché",
+    "perimeter": "868",
+    "repetition": "154",
+    "observations": [
+      "Rodando 237 porque cansei",
+      "Ficha de processo estava com perimetro errado 897.1 ,",
+      ""
+    ]
+  },
+  {
+    "id": "7ff95660-a601-4c27-b3c9-54f25e81269d",
+    "cut": "-188.9",
+    "name": "N STELLA 600",
+    "image": null,
+    "speed": "170",
+    "chagrim": "Não",
+    "createdAt": 1763762436000,
+    "paperType": "Couché",
+    "perimeter": "693",
+    "repetition": "55",
+    "observations": [
+      "Fluxo 10500",
+      "Corte anterior -117",
+      "Parou de dobrar folhas quando eu peguei a guia lateral de saída da folha e deixei ela bem na ponta ",
+      "Rodando dobrando folhas nas pontas lado cerutti , abaixei mais um pouco o rolo auxiliar com a chave 13 e fechei mais o ângulo melhorou e parou de dobrar ",
+      "Rodando bem mais variando o corte as vezes ",
+      "",
+      "Corte anterior: -186"
+    ]
+  },
+  {
+    "id": "fba0eb90-33a7-437d-bf1a-2ec63f1ad0eb",
+    "cut": "-188.9",
+    "name": "N STELLA 600 429",
+    "image": null,
+    "speed": "169",
+    "chagrim": "Não",
+    "createdAt": 1763762421000,
+    "paperType": "Couché",
+    "perimeter": "693",
+    "repetition": "55",
+    "observations": [
+      "Volta do pcm e troca de faca hoje dia 27.08.25 Luciano trocou a faca ruim tive que tocar novamente, faca ficou boa , problema que só consegui puxar a máquina a 80 porque dava falha de registro não dava pra puxar nem a 100 nem a 150 puxa a 80 e sobe aos poucos aí vai ",
+      "Antes -113.4 agora -182.4",
+      ""
+    ]
+  },
+  {
+    "id": "1b99bc9d-122b-467a-b613-3eac35756e05",
+    "cut": "-304.4",
+    "name": "F STELLA 600",
+    "image": null,
+    "speed": "249",
+    "chagrim": "Não",
+    "createdAt": 1763667281000,
+    "paperType": "Couché",
+    "perimeter": "830",
+    "repetition": "70",
+    "observations": [
+      "Rodando muito bem ",
+      "Depois do pcm faca cortando bem ",
+      "",
+      "Corte anterior: -301.6"
+    ]
+  },
+  {
+    "id": "12f12e40-8423-471c-ab5a-6c3cd6a560dc",
+    "cut": "-373.1",
+    "name": "F ORIGINAL 600",
+    "image": null,
+    "speed": "243",
+    "chagrim": "Sim",
+    "createdAt": 1762548836000,
+    "paperType": "Couché",
+    "perimeter": "914",
+    "repetition": "72",
+    "observations": [
+      "Rodando bem agora antes da troca da faca rodando 180 agora rodando 243 corte 376  angulo todo baixo bem fechado ",
+      "Rodando mau soltando verniz no chagrim ",
+      "Corte anterior: -373"
+    ]
+  },
+  {
+    "id": "2e9def71-1b70-4359-834d-d537fa602335",
+    "cut": "-334",
+    "name": "F ORIGINAL 300 429 REV03",
+    "image": null,
+    "speed": "249",
+    "chagrim": "Sim",
+    "createdAt": 1761932778000,
+    "paperType": "Couché",
+    "perimeter": "868",
+    "repetition": "154",
+    "observations": [
+      "Rodando muito mau depois do overhal maquina não passa de 150 falha de inversor povo sofrendo kkkk",
+      "Antes -242.1 agora -333.4",
+      "Rodando 243 porque não tem bobina no pulmao ",
+      "Rodando bem operador novo geraldinho",
+      "Pontinha da folha lado de trás lado cerutti dobrando pra baixo mais poucas ",
+      "Puxando um pouco a folha lado cerutti , configurado rolo auxiliar acrilico ",
+      "1. Corte anterior: -332.2",
+      "produto com arte nova"
+    ]
+  },
+  {
+    "id": "0c5357d2-34a3-4cd5-b328-2f92b74d32f1",
+    "cut": "-322.4",
+    "name": "F BC NORDESTE 1 L",
+    "image": null,
+    "speed": "246",
+    "chagrim": "Não",
+    "createdAt": 1759013061000,
+    "paperType": "Couché",
+    "perimeter": "856",
+    "repetition": "63",
+    "observations": [
+      "Deixaram o perímetro que era 856 em 865 muitos enroscamentos de manha muito ruins , ajuste do rolo auxiliar subi um pouco , abri a guia lado cerutti pronto 250 e rodaram 210 220 ",
+      "Muitos enroscamentos na saída da faca possivelmente o papel porque mexemos em tudo e nada rodou no máximo 243 porém estabilizou em 210",
+      "Antes -235 agora -319",
+      "Faca foi trocada dia 14 meu aniversário devido a ter excesso de ajuste e ficar travada , conjunto do abaixador de calda estava pegando nas correias lentas fazendo ocorrer enroscamentos ninguém viu ",
+      "Corte anterior 238.1",
+      "",
+      "Corte anterior: 323"
+    ]
+  },
+  {
+    "id": "dd68934b-d085-4ede-82a3-b8547198f80f",
+    "cut": "-80.7",
+    "name": "N STELLA 600 EXP PARAGUAI",
+    "image": null,
+    "speed": "100",
+    "chagrim": "Não",
+    "createdAt": 1758741255000,
+    "paperType": "Couché",
+    "perimeter": "569",
+    "repetition": "44",
+    "observations": [
+      "Rodando com overlap a 73 e 100 de velocidade ",
+      "Material muito pequeno rodando a 80 de velocidade com overlap a 77",
+      ""
+    ]
+  },
+  {
+    "id": "ee76ab8c-90b6-47f6-a058-cabf0cff5ddb",
+    "cut": "-371.3",
+    "name": "F AP 600",
+    "image": null,
+    "speed": "249",
+    "chagrim": "Não",
+    "createdAt": 1758217280000,
+    "paperType": "Couché",
+    "perimeter": "914",
+    "repetition": "72",
+    "observations": [
+      "Malandro abaixa a velocidade depois das 19 só pra não pegar setup",
+      "Rodando super bem corte muito bom ",
+      "Corte anterior: -373.1"
+    ]
+  },
+  {
+    "id": "d653e218-75cc-4407-814f-d8d5261191f1",
+    "cut": "-367.8",
+    "name": "F SKOL 300 RGB",
+    "image": null,
+    "speed": "250",
+    "chagrim": "Não",
+    "createdAt": 1758131077000,
+    "paperType": "Couché",
+    "perimeter": "910",
+    "repetition": "156",
+    "observations": [
+      "Rodando bem rodou até 261 mais abaixamos ",
+      "Enroscamentos seguidos folhas jogando pro lado cerutti faca rasgando a folha feito o ajuste na faca ",
+      "Apertei a correia lenta lado rotomec estava muito frouxa e mudei a posição da roldana do lado rotomec para parar de pular ",
+      "Feita a troca das duas roldanas lado rotomec muito suja melhorou as folhas jogando pro lado abaixei o rolo auxiliar também ",
+      "",
+      "Corte anterior: -368.3"
+    ]
+  },
+  {
+    "id": "056eb48a-1686-4d9f-a68c-51da9e88ac90",
+    "cut": "-369.3",
+    "name": "F N NORTEÑA 960ML UY 24",
+    "image": null,
+    "speed": "250",
+    "chagrim": "Não",
+    "createdAt": 1757539464000,
+    "paperType": "Couché",
+    "perimeter": "912",
+    "repetition": "56",
+    "observations": [
+      "Depois do pcm que trocou o rolo de borracha e deu errado de novo povo burro ",
+      "N rep 58"
+    ]
+  },
+  {
+    "id": "36cf9aa6-6cbc-499c-996b-0773085acf85",
+    "cut": "-352.2",
+    "name": "F BOHEMIA 300",
+    "image": null,
+    "speed": "249",
+    "chagrim": "Não",
+    "createdAt": 1756839960000,
+    "paperType": "Couché",
+    "perimeter": "890",
+    "repetition": "154",
+    "observations": [
+      "Folhas saindo da pilha e com falha de corte , troquei a posição do papel por fora do chagrim e parou deixei o balançando com 1",
+      ""
+    ]
+  },
+  {
+    "id": "84388520-6bd1-4fea-a186-c5a02cb8ee36",
+    "cut": "-372.9",
+    "name": "F BC 600 429",
+    "image": null,
+    "speed": "249",
+    "chagrim": "Não",
+    "createdAt": 1756835903000,
+    "paperType": "Couché",
+    "perimeter": "914",
+    "repetition": "80",
+    "observations": [
+      "Folhas embolando como se tivesse rugas deixei overlap 75 e vuala 255 de velocidade depois que o Matheus foi embora a pergunta é porque eles também não tentam ",
+      "Corte hoje-366.1",
+      "Antes corte-367.3 agora -365.9",
+      "Muitos enroscamentos papel do original dentro das correias na chapa de descarte fazendo enroscar ",
+      ""
+    ]
+  },
+  {
+    "id": "df507d88-7678-42a3-abd0-f28c226b0dcb",
+    "cut": "-348.8",
+    "name": "N B PILSEN 340 2023 UY",
+    "image": null,
+    "speed": "248",
+    "chagrim": "Sim",
+    "createdAt": 1756239163000,
+    "paperType": "Couché",
+    "perimeter": "890",
+    "repetition": "47",
+    "observations": [
+      ""
+    ]
+  },
+  {
+    "id": "fa1fa3ef-010b-4356-8c03-2b8b323063b2",
+    "cut": "-281.8",
+    "name": "F N BRAHMA MUSICAL 940 PY",
+    "image": null,
+    "speed": "230",
+    "chagrim": "Sim",
+    "createdAt": 1755910967000,
+    "paperType": "Couché",
+    "perimeter": "808",
+    "repetition": "40",
+    "observations": [
+      "Folhas ainda dobrando mais deixa pra eles arrumarem pelo menos uma vez ",
+      ""
+    ]
+  },
+  {
+    "id": "7d23ddba-c055-49ea-b38c-a287e7e2e68d",
+    "cut": "-314",
+    "name": "F BC 1L 429",
+    "image": null,
+    "speed": "250",
+    "chagrim": "Não",
+    "createdAt": 1755294432000,
+    "paperType": "Couché",
+    "perimeter": "847.9",
+    "repetition": "63",
+    "observations": [
+      "Maquina enroscando muito acho que a faca está muito ajustada batendo muito  ninguém viu o rolamento lado rotomec tremendo pra variar de manha 66 gly mais ta bom você só da aquilo que você tem né ",
+      "Maquina enroscando a 230 mexi no ângulo roldanas erradas e sopradores de levantar a folhas obs caixa de vácuo estava pouco inclinada desci mais a frente e atrás ficou mais levantado pronto 250",
+      "Antes -232 agora -319",
+      ""
+    ]
+  },
+  {
+    "id": "33b6596d-8326-4c1e-bbed-224c783596d5",
+    "cut": "-316",
+    "name": "F SKOL 1 L",
+    "image": null,
+    "speed": "246",
+    "chagrim": "Não",
+    "createdAt": 1754939932000,
+    "paperType": "Couché",
+    "perimeter": "850",
+    "repetition": "56",
+    "observations": [
+      "Antes 315.7 ",
+      "",
+      "Corte anterior: -321.4"
+    ]
+  },
+  {
+    "id": "69f55d53-baf9-4c3d-ad0b-b1b76a69c158",
+    "cut": "-311",
+    "name": "BACK PILSEN 340 025 PY",
+    "image": null,
+    "speed": "1",
+    "chagrim": "Sim",
+    "createdAt": 1754674883000,
+    "paperType": "Couché",
+    "perimeter": "846.8",
+    "repetition": "208",
+    "observations": [
+      ""
+    ]
+  },
+  {
+    "id": "384eaee3-ca9f-45e3-8406-bbf886567324",
+    "cut": "-330.9",
+    "name": "F BC 300 OW",
+    "image": null,
+    "speed": "248",
+    "chagrim": "Não",
+    "createdAt": 1754588288000,
+    "paperType": "Couché",
+    "perimeter": "868",
+    "repetition": "154",
+    "observations": [
+      "Rodou bem ",
+      "Corte anterior: -346.1"
+    ]
+  },
+  {
+    "id": "a744b957-0cf8-48b9-aa8e-3130f7cf4fdb",
+    "cut": "-360.1",
+    "name": "B SPATEN 600",
+    "image": null,
+    "speed": "255",
+    "chagrim": "Sim",
+    "createdAt": 1754419663000,
+    "paperType": "Couché",
+    "perimeter": "905",
+    "repetition": "180",
+    "observations": [
+      "Antes -360.3",
+      "Rodando super bem ",
+      "Antes -270.7 agora -360",
+      "Enroscando ao subir velocidade terminei o turno a 230 ajuste do ângulo ",
+      "",
+      "Corte anterior: -365"
+    ]
+  },
+  {
+    "id": "b0131e02-a008-4fc7-aa34-77f676e156ca",
+    "cut": "-373.5",
+    "name": "F AP SUB ZERO 600 429",
+    "image": null,
+    "speed": "249",
+    "chagrim": "Não",
+    "createdAt": 1754156199000,
+    "paperType": "Couché",
+    "perimeter": "918.6",
+    "repetition": "90",
+    "observations": [
+      ""
+    ]
+  },
+  {
+    "id": "2e594965-0cac-4d72-beb2-e976f15114c5",
+    "cut": "-367.6",
+    "name": "F BRAHMA DUPLO MALTE 600 429",
+    "image": null,
+    "speed": "252",
+    "chagrim": "Sim",
+    "createdAt": 1754073778000,
+    "paperType": "Couché",
+    "perimeter": "914",
+    "repetition": "80",
+    "observations": [
+      ""
+    ]
+  },
+  {
+    "id": "649ff436-8436-4446-81ab-2f5ac8b68386",
+    "cut": "-308.1",
+    "name": "F BRAHMA 940 REV02 PY",
+    "image": null,
+    "speed": "249",
+    "chagrim": "Sim",
+    "createdAt": 1752785814000,
+    "paperType": "Couché",
+    "perimeter": "846.8",
+    "repetition": "56",
+    "observations": [
+      ""
+    ]
+  },
+  {
+    "id": "c60f204d-ebeb-4d3b-8cd6-9dd5d7db25f0",
+    "cut": "",
+    "name": "F BRAHMA 940 RRV02 PY",
+    "image": null,
+    "speed": "",
+    "chagrim": "Sim",
+    "createdAt": 1752777240000,
+    "paperType": "Couché",
+    "perimeter": "846.8",
+    "repetition": "56",
+    "observations": [
+      ""
+    ]
+  },
+  {
+    "id": "dc6611e9-340b-4b7b-8219-b567fa600727",
+    "cut": "-326.2",
+    "name": "N BRAHMA 940 RRV02 PY",
+    "image": null,
+    "speed": "249",
+    "chagrim": "Sim",
+    "createdAt": 1752777095000,
+    "paperType": "Couché",
+    "perimeter": "868",
+    "repetition": "220",
+    "observations": [
+      ""
+    ]
+  },
+  {
+    "id": "a2247031-70fd-42d5-a6ce-9db99beaea96",
+    "cut": "-328.1",
+    "name": "F B ZILLERTAL 970 UY",
+    "image": null,
+    "speed": "",
+    "chagrim": "Sim",
+    "createdAt": 1752091695000,
+    "paperType": "Couché",
+    "perimeter": "868",
+    "repetition": "4545",
+    "observations": [
+      ""
+    ]
+  },
+  {
+    "id": "7b226414-0539-4b11-9750-206aeda50805",
+    "cut": "-362.8",
+    "name": "F SKOL 300 RGB NIV 22",
+    "image": null,
+    "speed": "250",
+    "chagrim": "Não",
+    "createdAt": 1751909787000,
+    "paperType": "Couché",
+    "perimeter": "910",
+    "repetition": "156",
+    "observations": [
+      ""
+    ]
+  },
+  {
+    "id": "af5051a1-f4cd-46ef-bd13-4eee5dd2ac1e",
+    "cut": "-328.1",
+    "name": "F BC 300 RGB",
+    "image": null,
+    "speed": "252",
+    "chagrim": "Não",
+    "createdAt": 1748912408000,
+    "paperType": "Couché",
+    "perimeter": "868",
+    "repetition": "132",
+    "observations": [
+      "Muitos enroscamentos e folha dobrando na lateral cerutti  ângulo quase no meio",
+      "Folhas dobrando lado cerutti e amassando , feito o levantamento do rolo auxiliar e ajustado o ângulo estava errado ",
+      "Corte anterior: -332.2"
+    ]
+  },
+  {
+    "id": "744b1279-8817-44e5-bf4e-86c2634f537a",
+    "cut": "-363",
+    "name": "F N SERRAMALTE 600",
+    "image": null,
+    "speed": "240",
+    "chagrim": "Sim",
+    "createdAt": 1748912345000,
+    "paperType": "Couché",
+    "perimeter": "909",
+    "repetition": "70",
+    "observations": [
+      "Enroscamentos diversos pilha do serjao",
+      "",
+      "Corte anterior: 372"
+    ]
+  },
+  {
+    "id": "699c2b74-d06d-44d1-a92c-e89c651734b4",
+    "cut": "-362.3",
+    "name": "F N POLAR 1 L",
+    "image": null,
+    "speed": "249",
+    "chagrim": "Sim",
+    "createdAt": 1746820973000,
+    "paperType": "Couché",
+    "perimeter": "909.6",
+    "repetition": "54",
+    "observations": [
+      "Antes corte -365",
+      "Depois de arrumar a maquina ",
+      "Corte anterior: 369"
+    ]
+  },
+  {
+    "id": "846e6f16-8484-4421-80df-316768ec9f22",
+    "cut": "-342.9",
+    "name": "N BC 1L VBI IN65 21",
+    "image": null,
+    "speed": "249",
+    "chagrim": "Não",
+    "createdAt": 1746306219000,
+    "paperType": "Couché",
+    "perimeter": "887",
+    "repetition": "190",
+    "observations": [
+      ""
+    ]
+  },
+  {
+    "id": "ef64d197-c3dc-4896-b310-2583244419da",
+    "cut": "-343.1",
+    "name": "N BC 1L",
+    "image": null,
+    "speed": "249",
+    "chagrim": "Não",
+    "createdAt": 1746293262000,
+    "paperType": "Couché",
+    "perimeter": "887",
+    "repetition": "1",
+    "observations": [
+      ""
+    ]
+  },
+  {
+    "id": "d5844d9a-f8d7-4655-a02d-5365fe9ec570",
+    "cut": "-325",
+    "name": "N BRAHMITA 340 REV02",
+    "image": null,
+    "speed": "249",
+    "chagrim": "Sim",
+    "createdAt": 1746054972000,
+    "paperType": "Couché",
+    "perimeter": "865.2",
+    "repetition": "300",
+    "observations": [
+      ""
+    ]
+  },
+  {
+    "id": "c8498c4b-f218-447b-80cb-dab03b30ee4d",
+    "cut": "-308.8",
+    "name": "F BRAHMITA 340 REV02",
+    "image": null,
+    "speed": "249",
+    "chagrim": "Sim",
+    "createdAt": 1746046668000,
+    "paperType": "Couché",
+    "perimeter": "846.8",
+    "repetition": "110",
+    "observations": [
+      ""
+    ]
+  },
+  {
+    "id": "063a5b7b-da32-4abb-ae02-46fac12234a2",
+    "cut": "-311",
+    "name": "F BC 1L",
+    "image": null,
+    "speed": "249",
+    "chagrim": "Não",
+    "createdAt": 1745876622000,
+    "paperType": "Couché",
+    "perimeter": "847.9",
+    "repetition": "63",
+    "observations": [
+      ""
+    ]
+  },
+  {
+    "id": "5e444ddb-f7fd-46a8-8af1-2064a3f2a847",
+    "cut": "-311",
+    "name": "N SKOL SENSES 269",
+    "image": null,
+    "speed": "",
+    "chagrim": "Sim",
+    "createdAt": 1744246385000,
+    "paperType": "Couché",
+    "perimeter": "846.8",
+    "repetition": "126",
+    "observations": [
+      "",
+      "Corte anterior: 319"
+    ]
+  },
+  {
+    "id": "de500567-3cca-4859-8433-f84d330792a9",
+    "cut": "-314.9",
+    "name": "F B BRAHMA MALZBIER 355",
+    "image": null,
+    "speed": "246",
+    "chagrim": "Sim",
+    "createdAt": 1744246251000,
+    "paperType": "Couché",
+    "perimeter": "856",
+    "repetition": "76",
+    "observations": [
+      ""
+    ]
+  },
+  {
+    "id": "e8fdf27d-f20e-4c3c-a444-533039de2111",
+    "cut": "-311.1",
+    "name": "F BC 940 REV 02 PY",
+    "image": null,
+    "speed": "249",
+    "chagrim": "Sim",
+    "createdAt": 1744222031000,
+    "paperType": "Couché",
+    "perimeter": "846.8",
+    "repetition": "80",
+    "observations": [
+      "Muito forte o chagrim "
+    ]
+  },
+  {
+    "id": "f8b20a8e-280b-486f-92e2-db7cb15cf162",
+    "cut": "-297.6",
+    "name": "F N PACENA 710",
+    "image": null,
+    "speed": "240",
+    "chagrim": "Sim",
+    "createdAt": 1743900615000,
+    "paperType": "Couché",
+    "perimeter": "830",
+    "repetition": "68",
+    "observations": [
+      "F .50 N.57 ",
+      ""
+    ]
+  },
+  {
+    "id": "7384599f-0fa5-4b25-8e2e-c079bc86028b",
+    "cut": "-345",
+    "name": "N BRAHMA NORDESTE 1 L",
+    "image": null,
+    "speed": "246",
+    "chagrim": "Não",
+    "createdAt": 1743880081000,
+    "paperType": "Couché",
+    "perimeter": "887",
+    "repetition": "190",
+    "observations": [
+      "Folhas dobrando lado cerutti, abri a guia de metal até o limite e coloquei o soprador bem na ponta aonde dobrava e parou",
+      "Antes -258.1 agora -345",
+      "Papel com aspecto de rugas não podendo subir a velocidade e acontecendo alguns enroscamentos sem causa ",
+      "Rodando bem porém as folhas parecem que estão com rugas mais ta rodando razoável ",
+      "Rodando bem folhas jogando na mesa para o lado cerutti ,arrumado o freio ",
+      "",
+      "Corte anterior: -349"
+    ]
+  },
+  {
+    "id": "9e43c0e4-374c-4f4a-8317-81348a9be8ae",
+    "cut": "-345",
+    "name": "N AP 1 LITRO",
+    "image": null,
+    "speed": "",
+    "chagrim": "Não",
+    "createdAt": 1743879737000,
+    "paperType": "Couché",
+    "perimeter": "890",
+    "repetition": "190",
+    "observations": [
+      "",
+      "Corte anterior: -348"
+    ]
+  },
+  {
+    "id": "67eb9f6b-a838-4148-9d47-feaac3b568cc",
+    "cut": "-368",
+    "name": "F BOHEMIA 600 429",
+    "image": null,
+    "speed": "246",
+    "chagrim": "Não",
+    "createdAt": 1743876806000,
+    "paperType": "Couché",
+    "perimeter": "914",
+    "repetition": "72",
+    "observations": [
+      "",
+      "Corte anterior: -372.3"
+    ]
+  },
+  {
+    "id": "9ee20fca-69e4-434d-8ef8-5e074eb937e5",
+    "cut": "-368",
+    "name": "F BC 600 NORDESTE",
+    "image": null,
+    "speed": "243",
+    "chagrim": "Não",
+    "createdAt": 1743151367000,
+    "paperType": "Couché",
+    "perimeter": "914",
+    "repetition": "72",
+    "observations": [
+      "Depois do pcm troca da faca rodando bem ",
+      "",
+      "Corte anterior: -373"
+    ]
+  },
+  {
+    "id": "b0c34d2f-2f3a-41e3-80fd-b859f12a216a",
+    "cut": "-81.6",
+    "name": "N STELLA PURE GOLD ROLAND GARROS 330",
+    "image": null,
+    "speed": "155",
+    "chagrim": "Sim",
+    "createdAt": 1741770514000,
+    "paperType": "Couché",
+    "perimeter": "650",
+    "repetition": "70",
+    "observations": [
+      "Corte antes -83",
+      "Folhas dobrando subi um pouco rolo auxiliar , levantei um pouco sopradores do meio abaixador de calda parou de dobrar lado rotomec ",
+      "Nova arte "
+    ]
+  },
+  {
+    "id": "d78e7545-136f-48a6-aff0-691ca42dbb4f",
+    "cut": "-266.1",
+    "name": "B NORTEÑA 960 UY 025",
+    "image": null,
+    "speed": "",
+    "chagrim": "Não",
+    "createdAt": 1739185734000,
+    "paperType": "Couché",
+    "perimeter": "890",
+    "repetition": "240",
+    "observations": [
+      ""
+    ]
+  }
+]
