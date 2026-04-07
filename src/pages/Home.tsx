@@ -33,10 +33,10 @@ const Home = () => {
     }
   }, []);
   
-  // Pegamos os 5 mais recentes
+  // Pegamos os 10 mais recentes
   const recentProducts = [...products]
     .sort((a, b) => (b.updatedAt || b.createdAt) - (a.updatedAt || a.createdAt))
-    .slice(0, 5);
+    .slice(0, 10);
 
   // Busca de Perímetro
   const perimeterResults = useMemo(() => {
