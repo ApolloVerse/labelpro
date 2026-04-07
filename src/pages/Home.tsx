@@ -4,6 +4,7 @@ import { useProducts } from '../context/ProductContext';
 
 
 const Home = () => {
+  const { products, isLoading } = useProducts();
   const [, setIsDark] = useState(() => document.documentElement.classList.contains('dark'));
   
   // Toggle Theme
