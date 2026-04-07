@@ -73,7 +73,7 @@ const Home = () => {
         </div>
       </header>
 
-      <main className="flex-1 pb-[140px]">
+      <main className="flex-1 pb-24">
         {/* Painel Inicial (Cards) */}
         <section className="p-6">
           <div className="grid grid-cols-2 gap-4">
