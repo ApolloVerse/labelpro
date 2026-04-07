@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { useProducts } from '../context/ProductContext';
 
@@ -32,10 +32,18 @@ const Home = () => {
     }
   }, []);
   
-  // Pegamos os 5 mais recentes
-  const recentProducts = [...products]
-    .sort((a, b) => (b.updatedAt || b.createdAt) - (a.updatedAt || a.createdAt))
-    .slice(0, 5);
+  // Calculando novos registros das ultimas 24h
+  const newProductsToday = useMemo(() => {
+    const oneDayAgo = Date.now() - 24 * 60 * 60 * 1000;
+    return products.filter(p => (p.createdAt || Date.now()) >= oneDayAgo).length;
+  }, [products]);
+
+  // Pegamos os 10 mais recentes
+  const recentProducts = useMemo(() => {
+    return [...products]
+      .sort((a, b) => (b.updatedAt || b.createdAt) - (a.updatedAt || a.createdAt))
+      .slice(0, 10);
+  }, [products]);
 
   const getRelativeTime = (time: number) => {
     const diff = Math.floor((Date.now() - time) / 60000); // in minutes
@@ -65,7 +73,7 @@ const Home = () => {
         </div>
       </header>
 
-      <main className="flex-1 pb-32">
+      <main className="flex-1 pb-[140px]">
         {/* Painel Inicial (Cards) */}
         <section className="p-6">
           <div className="grid grid-cols-2 gap-4">
@@ -100,7 +108,7 @@ const Home = () => {
               </div>
               <div>
                 <p className="text-sm font-medium text-slate-500 dark:text-slate-400 mb-1">Novo Registro</p>
-                <p className="text-[32px] font-extrabold text-slate-800 dark:text-white leading-none">+{recentProducts.length > 0 ? recentProducts.length : 12}</p>
+                <p className="text-[32px] font-extrabold text-slate-800 dark:text-white leading-none">+{newProductsToday}</p>
               </div>
             </div>
 

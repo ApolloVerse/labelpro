@@ -53,9 +53,9 @@ const BottomNav = () => {
         </div>
 
         <div className="flex flex-1 justify-around">
-          <Link to="/produtos" className={`flex flex-col items-center justify-center gap-1 transition-all duration-300 ${path === '/historico' ? 'text-primary scale-110' : 'text-slate-400 hover:text-slate-600'}`}>
-            <div className="flex h-10 w-10 items-center justify-center rounded-xl">
-              <span className="material-symbols-outlined text-[26px]">history</span>
+          <Link to="/historico" className={`flex flex-col items-center justify-center gap-1 transition-all duration-300 ${path === '/historico' ? 'text-primary scale-110' : 'text-slate-400 hover:text-slate-600'}`}>
+            <div className={`flex h-10 w-10 items-center justify-center rounded-xl ${path === '/historico' ? 'bg-primary/20' : ''}`}>
+              <span className="material-symbols-outlined text-[26px]" style={{ fontVariationSettings: path === '/historico' ? "'FILL' 1" : "" }}>history</span>
             </div>
             <p className="text-[9px] font-bold uppercase tracking-widest mt-1">Histórico</p>
           </Link>
@@ -83,6 +83,11 @@ const AnimatedRoutes = () => {
           </motion.div>
         } />
         <Route path="/produtos" element={
+          <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -20 }} transition={{ duration: 0.3 }}>
+            <List />
+          </motion.div>
+        } />
+        <Route path="/historico" element={
           <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -20 }} transition={{ duration: 0.3 }}>
             <List />
           </motion.div>
