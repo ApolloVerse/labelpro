@@ -32,11 +32,18 @@ const Home = () => {
     }
   }, []);
   
-  // Calculando novos registros das ultimas 24h
-  const newProductsToday = useMemo(() => {
-    const oneDayAgo = Date.now() - 24 * 60 * 60 * 1000;
-    return products.filter(p => (p.createdAt || Date.now()) >= oneDayAgo).length;
-  }, [products]);
+  // Busca de Perímetro
+  const [perimeterSearch, setPerimeterSearch] = useState('');
+  const perimeterResults = useMemo(() => {
+    if (!perimeterSearch.trim()) return [];
+    
+    // Busca registros que possuam o perimetro exato (ou contenham a string)
+    const matches = products.filter(p => 
+      p.perimeter && p.perimeter.trim() !== '' && p.perimeter.toUpperCase().includes(perimeterSearch.trim().toUpperCase())
+    );
+    
+    return matches;
+  }, [perimeterSearch, products]);
 
   // Pegamos os 10 mais recentes
   const recentProducts = useMemo(() => {
@@ -95,20 +102,41 @@ const Home = () => {
               </div>
             </div>
 
-            {/* Card 2 */}
-            <div className="bg-white dark:bg-slate-900 p-5 rounded-3xl shadow-sm border border-slate-100 dark:border-slate-800 flex flex-col justify-between">
-              <div className="flex items-center justify-between mb-6">
+            {/* Card 2 - Buscador de Perímetro */}
+            <div className="bg-white dark:bg-slate-900 p-4 rounded-3xl shadow-sm border border-slate-100 dark:border-slate-800 flex flex-col justify-between relative overflow-hidden">
+              <div className="flex items-center justify-between mb-4 z-10">
                 <div className="bg-primary/10 size-10 rounded-xl flex items-center justify-center">
-                  <span className="material-symbols-outlined text-primary text-xl">add_circle</span>
+                  <span className="material-symbols-outlined text-primary text-xl">search</span>
                 </div>
-                <div className="flex items-center gap-1 text-primary">
-                  <span className="material-symbols-outlined text-[14px]">trending_up</span>
-                  <span className="text-[11px] font-bold">2.4%</span>
+                <div className="flex items-center text-primary">
+                  <span className="text-[10px] font-bold uppercase tracking-widest bg-primary/10 px-2 py-1 rounded-md">Buscador</span>
                 </div>
               </div>
-              <div>
-                <p className="text-sm font-medium text-slate-500 dark:text-slate-400 mb-1">Novo Registro</p>
-                <p className="text-[32px] font-extrabold text-slate-800 dark:text-white leading-none">+{newProductsToday}</p>
+              <div className="z-10 flex flex-col gap-2">
+                <p className="text-xs font-bold text-slate-500 dark:text-slate-400 uppercase tracking-widest pl-1">Perímetro</p>
+                <div className="flex bg-slate-50 dark:bg-slate-800 rounded-xl px-3 py-2 border border-slate-100 dark:border-slate-700 focus-within:border-primary/50 transition-all">
+                  <input 
+                    type="number"
+                    placeholder="Ex: 300"
+                    value={perimeterSearch}
+                    onChange={(e) => setPerimeterSearch(e.target.value)}
+                    className="w-full bg-transparent border-none outline-none text-sm font-bold text-slate-800 dark:text-white placeholder:text-slate-400"
+                  />
+                </div>
+                
+                <div className="h-[46px] flex items-end">
+                  {perimeterSearch.trim() !== '' && perimeterResults.length > 0 && (
+                    <div className="w-full flex items-baseline justify-between bg-primary/10 px-3 py-2 rounded-xl border border-primary/20">
+                      <span className="text-[10px] text-slate-500 dark:text-slate-400 font-bold uppercase">Corte:</span>
+                      <span className="text-xl font-black text-primary leading-none">{perimeterResults[0].cut || 'N/A'}</span>
+                    </div>
+                  )}
+                  {perimeterSearch.trim() !== '' && perimeterResults.length === 0 && (
+                    <div className="w-full flex items-center justify-center bg-red-50 dark:bg-red-500/10 px-3 py-2 rounded-xl h-[40px]">
+                      <span className="text-[10px] text-red-500 font-bold uppercase tracking-widest">Não enc.</span>
+                    </div>
+                  )}
+                </div>
               </div>
             </div>
 
